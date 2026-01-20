@@ -1,0 +1,1737 @@
+{
+  "unit": "7th Advanced: Inequalities, Equations, and Expressions",
+  "questions": [
+    {
+      "id": "adv7-q001",
+      "prompt": "Simplify: 7x + 3x",
+      "type": "mcq",
+      "choices": ["10x", "21x", "10", "x10"],
+      "answer": "10x",
+      "difficulty": "easy",
+      "explanation": "Combine like terms: 7x + 3x = 10x."
+    },
+    {
+      "id": "adv7-q002",
+      "prompt": "Simplify: 12a - 5a",
+      "type": "mcq",
+      "choices": ["7a", "17a", "a7", "7"],
+      "answer": "7a",
+      "difficulty": "easy",
+      "explanation": "Combine like terms: 12a - 5a = 7a."
+    },
+    {
+      "id": "adv7-q003",
+      "prompt": "Simplify: 4m + 9 - 2m",
+      "type": "mcq",
+      "choices": ["2m+9", "6m+9", "2m+7", "4m+7"],
+      "answer": "2m+9",
+      "difficulty": "easy",
+      "explanation": "Combine like terms: 4m - 2m = 2m."
+    },
+    {
+      "id": "adv7-q004",
+      "prompt": "Simplify: 5y - 8 + 2y + 3",
+      "type": "mcq",
+      "choices": ["7y-5", "3y-5", "7y+5", "3y+5"],
+      "answer": "7y-5",
+      "difficulty": "easy",
+      "explanation": "Combine like terms: 5y+2y=7y and -8+3=-5."
+    },
+    {
+      "id": "adv7-q005",
+      "prompt": "Simplify: 9p - (2p + 6)",
+      "type": "mcq",
+      "choices": ["7p-6", "11p+6", "7p+6", "11p-6"],
+      "answer": "7p-6",
+      "difficulty": "medium",
+      "explanation": "Subtracting (2p+6) gives 9p-2p-6 = 7p-6."
+    },
+    {
+      "id": "adv7-q006",
+      "prompt": "Simplify: 3(2x + 5)",
+      "type": "mcq",
+      "choices": ["6x+15", "6x+5", "2x+15", "5x+6"],
+      "answer": "6x+15",
+      "difficulty": "easy",
+      "explanation": "Distribute: 3*2x=6x and 3*5=15."
+    },
+    {
+      "id": "adv7-q007",
+      "prompt": "Simplify: -2(4n - 3)",
+      "type": "mcq",
+      "choices": ["-8n+6", "-8n-6", "8n+6", "8n-6"],
+      "answer": "-8n+6",
+      "difficulty": "medium",
+      "explanation": "Distribute -2: -2*4n=-8n and -2*(-3)=+6."
+    },
+    {
+      "id": "adv7-q008",
+      "prompt": "Simplify: 5(3k - 2) - 4k",
+      "type": "mcq",
+      "choices": ["11k-10", "15k-10", "11k+10", "15k+10"],
+      "answer": "11k-10",
+      "difficulty": "medium",
+      "explanation": "Distribute: 15k-10-4k = 11k-10."
+    },
+    {
+      "id": "adv7-q009",
+      "prompt": "Simplify: 2(3x - 7) + 3(2x + 1)",
+      "type": "mcq",
+      "choices": ["12x-11", "6x-11", "12x-5", "6x-5"],
+      "answer": "12x-11",
+      "difficulty": "medium",
+      "explanation": "2(3x-7)=6x-14 and 3(2x+1)=6x+3; sum is 12x-11."
+    },
+    {
+      "id": "adv7-q010",
+      "prompt": "Which expression is equivalent to 4(x + 2) - x?",
+      "type": "mcq",
+      "choices": ["3x+8", "5x+2", "3x+2", "4x+8"],
+      "answer": "3x+8",
+      "difficulty": "medium",
+      "explanation": "4(x+2)=4x+8; then 4x+8-x=3x+8."
+    },
+    {
+      "id": "adv7-q011",
+      "prompt": "Evaluate: 3x - 4 when x = -2",
+      "type": "mcq",
+      "choices": ["-10", "2", "10", "-2"],
+      "answer": "-10",
+      "difficulty": "easy",
+      "explanation": "3*(-2)-4=-6-4=-10."
+    },
+    {
+      "id": "adv7-q012",
+      "prompt": "Evaluate: -2y + 5 when y = 3",
+      "type": "mcq",
+      "choices": ["-1", "1", "11", "-11"],
+      "answer": "-1",
+      "difficulty": "easy",
+      "explanation": "-2*3+5=-6+5=-1."
+    },
+    {
+      "id": "adv7-q013",
+      "prompt": "Evaluate: 2(a - 3) when a = 7",
+      "type": "mcq",
+      "choices": ["8", "2", "14", "10"],
+      "answer": "8",
+      "difficulty": "easy",
+      "explanation": "2*(7-3)=2*4=8."
+    },
+    {
+      "id": "adv7-q014",
+      "prompt": "Solve: x + 9 = 15",
+      "type": "short",
+      "answer": "6",
+      "difficulty": "easy",
+      "explanation": "Subtract 9 from both sides: x = 6."
+    },
+    {
+      "id": "adv7-q015",
+      "prompt": "Solve: x - 12 = -5",
+      "type": "short",
+      "answer": "7",
+      "difficulty": "easy",
+      "explanation": "Add 12 to both sides: x = 7."
+    },
+    {
+      "id": "adv7-q016",
+      "prompt": "Solve: 4x = 28",
+      "type": "short",
+      "answer": "7",
+      "difficulty": "easy",
+      "explanation": "Divide both sides by 4: x = 7."
+    },
+    {
+      "id": "adv7-q017",
+      "prompt": "Solve: x/6 = -3",
+      "type": "short",
+      "answer": "-18",
+      "difficulty": "easy",
+      "explanation": "Multiply both sides by 6: x = -18."
+    },
+    {
+      "id": "adv7-q018",
+      "prompt": "Solve: 3x + 5 = 20",
+      "type": "short",
+      "answer": "5",
+      "difficulty": "easy",
+      "explanation": "Subtract 5: 3x=15; divide by 3: x=5."
+    },
+    {
+      "id": "adv7-q019",
+      "prompt": "Solve: 5x - 8 = 27",
+      "type": "short",
+      "answer": "7",
+      "difficulty": "easy",
+      "explanation": "Add 8: 5x=35; divide by 5: x=7."
+    },
+    {
+      "id": "adv7-q020",
+      "prompt": "Solve: -2x + 9 = -1",
+      "type": "short",
+      "answer": "5",
+      "difficulty": "medium",
+      "explanation": "Subtract 9: -2x=-10; divide by -2: x=5."
+    },
+    {
+      "id": "adv7-q021",
+      "prompt": "Solve: 0.5x = 6",
+      "type": "short",
+      "answer": "12",
+      "difficulty": "medium",
+      "explanation": "Divide by 0.5 (or multiply by 2): x=12."
+    },
+    {
+      "id": "adv7-q022",
+      "prompt": "Solve: x/4 + 3 = 10",
+      "type": "short",
+      "answer": "28",
+      "difficulty": "medium",
+      "explanation": "Subtract 3: x/4=7; multiply by 4: x=28."
+    },
+    {
+      "id": "adv7-q023",
+      "prompt": "Solve: 2(x - 4) = 10",
+      "type": "short",
+      "answer": "9",
+      "difficulty": "medium",
+      "explanation": "Divide by 2: x-4=5; add 4: x=9."
+    },
+    {
+      "id": "adv7-q024",
+      "prompt": "Solve: 3(x + 1) = 18",
+      "type": "short",
+      "answer": "5",
+      "difficulty": "medium",
+      "explanation": "Divide by 3: x+1=6; subtract 1: x=5."
+    },
+    {
+      "id": "adv7-q025",
+      "prompt": "Solve: 7 - 2x = 1",
+      "type": "short",
+      "answer": "3",
+      "difficulty": "medium",
+      "explanation": "Subtract 7: -2x=-6; divide by -2: x=3."
+    },
+    {
+      "id": "adv7-q026",
+      "prompt": "Solve the inequality: x + 5 > 12",
+      "type": "mcq",
+      "choices": ["x>7", "x>17", "x<7", "x<17"],
+      "answer": "x>7",
+      "difficulty": "easy",
+      "explanation": "Subtract 5 from both sides: x > 7."
+    },
+    {
+      "id": "adv7-q027",
+      "prompt": "Solve the inequality: x - 9 <= -2",
+      "type": "mcq",
+      "choices": ["x<=7", "x>=7", "x<=-7", "x>=-7"],
+      "answer": "x<=7",
+      "difficulty": "easy",
+      "explanation": "Add 9 to both sides: x <= 7."
+    },
+    {
+      "id": "adv7-q028",
+      "prompt": "Solve the inequality: 4x >= 20",
+      "type": "mcq",
+      "choices": ["x>=5", "x<=5", "x>=80", "x<=80"],
+      "answer": "x>=5",
+      "difficulty": "easy",
+      "explanation": "Divide both sides by 4 (positive): x >= 5."
+    },
+    {
+      "id": "adv7-q029",
+      "prompt": "Solve the inequality: -3x > 12",
+      "type": "mcq",
+      "choices": ["x<-4", "x>-4", "x<4", "x>4"],
+      "answer": "x<-4",
+      "difficulty": "medium",
+      "explanation": "Divide by -3 and flip the sign: x < -4."
+    },
+    {
+      "id": "adv7-q030",
+      "prompt": "Solve the inequality: 2x - 5 < 9",
+      "type": "mcq",
+      "choices": ["x<7", "x>7", "x<2", "x>2"],
+      "answer": "x<7",
+      "difficulty": "easy",
+      "explanation": "Add 5: 2x<14; divide by 2: x<7."
+    },
+    {
+      "id": "adv7-q031",
+      "prompt": "Solve the inequality: 7 - x >= 3",
+      "type": "mcq",
+      "choices": ["x<=4", "x>=4", "x<=10", "x>=10"],
+      "answer": "x<=4",
+      "difficulty": "medium",
+      "explanation": "Subtract 7: -x >= -4; multiply by -1 and flip: x <= 4."
+    },
+    {
+      "id": "adv7-q032",
+      "prompt": "Which value is a solution to the inequality x/5 <= -2?",
+      "type": "mcq",
+      "choices": ["-10", "0", "10", "-5"],
+      "answer": "-10",
+      "difficulty": "easy",
+      "explanation": "-10/5 = -2, which is <= -2."
+    },
+    {
+      "id": "adv7-q033",
+      "prompt": "Which value is NOT a solution to the inequality x > -3?",
+      "type": "mcq",
+      "choices": ["-2", "0", "5", "-3"],
+      "answer": "-3",
+      "difficulty": "easy",
+      "explanation": "x must be greater than -3, but -3 is not greater than -3."
+    },
+    {
+      "id": "adv7-q034",
+      "prompt": "Solve: 3(x - 2) + 4 = 16",
+      "type": "short",
+      "answer": "6",
+      "difficulty": "medium",
+      "explanation": "3(x-2)=12, so x-2=4 and x=6."
+    },
+    {
+      "id": "adv7-q035",
+      "prompt": "Solve: 2(5y + 1) = 32",
+      "type": "short",
+      "answer": "3",
+      "difficulty": "medium",
+      "explanation": "Divide by 2: 5y+1=16; subtract 1: 5y=15; y=3."
+    },
+    {
+      "id": "adv7-q036",
+      "prompt": "Solve: 4x - 3 = 2x + 9",
+      "type": "short",
+      "answer": "6",
+      "difficulty": "medium",
+      "explanation": "Subtract 2x: 2x-3=9; add 3: 2x=12; x=6."
+    },
+    {
+      "id": "adv7-q037",
+      "prompt": "Solve: 5a + 7 = 2a - 8",
+      "type": "short",
+      "answer": "-5",
+      "difficulty": "medium",
+      "explanation": "Subtract 2a: 3a+7=-8; subtract 7: 3a=-15; a=-5."
+    },
+    {
+      "id": "adv7-q038",
+      "prompt": "Solve: 6 - 2n = 3n + 1",
+      "type": "short",
+      "answer": "1",
+      "difficulty": "medium",
+      "explanation": "Add 2n: 6=5n+1; subtract 1: 5n=5; n=1."
+    },
+    {
+      "id": "adv7-q039",
+      "prompt": "Which expression is equivalent to 2(x + 3) + 4(x - 1)?",
+      "type": "mcq",
+      "choices": ["6x+2", "6x+10", "2x+6", "8x+2"],
+      "answer": "6x+2",
+      "difficulty": "medium",
+      "explanation": "2x+6 + 4x-4 = 6x+2."
+    },
+    {
+      "id": "adv7-q040",
+      "prompt": "Simplify: 10 - (3x - 2)",
+      "type": "mcq",
+      "choices": ["12-3x", "8-3x", "12+3x", "8+3x"],
+      "answer": "12-3x",
+      "difficulty": "medium",
+      "explanation": "Subtracting (3x-2) gives 10-3x+2 = 12-3x."
+    },
+    {
+      "id": "adv7-q041",
+      "prompt": "Simplify: -(x + 7) + 3x",
+      "type": "mcq",
+      "choices": ["2x-7", "-2x-7", "4x+7", "2x+7"],
+      "answer": "2x-7",
+      "difficulty": "medium",
+      "explanation": "-(x+7) = -x-7; then -x-7+3x=2x-7."
+    },
+    {
+      "id": "adv7-q042",
+      "prompt": "Simplify: 6t - 2(2t - 5)",
+      "type": "mcq",
+      "choices": ["2t+10", "2t-10", "10t+10", "10t-10"],
+      "answer": "2t+10",
+      "difficulty": "medium",
+      "explanation": "6t - (4t-10) = 6t-4t+10 = 2t+10."
+    },
+    {
+      "id": "adv7-q043",
+      "prompt": "Evaluate: 2x^2 when x = -3",
+      "type": "mcq",
+      "choices": ["18", "-18", "6", "-6"],
+      "answer": "18",
+      "difficulty": "medium",
+      "explanation": "x^2 = 9, so 2*9 = 18."
+    },
+    {
+      "id": "adv7-q044",
+      "prompt": "Which expression is equivalent to 3(2y - 4) - (y + 1)?",
+      "type": "mcq",
+      "choices": ["5y-13", "7y-5", "5y-11", "7y-13"],
+      "answer": "5y-13",
+      "difficulty": "hard",
+      "explanation": "3(2y-4)=6y-12; subtract (y+1): 6y-12-y-1=5y-13."
+    },
+    {
+      "id": "adv7-q045",
+      "prompt": "Solve the inequality: 3x + 1 <= 16",
+      "type": "mcq",
+      "choices": ["x<=5", "x>=5", "x<=15", "x>=15"],
+      "answer": "x<=5",
+      "difficulty": "easy",
+      "explanation": "Subtract 1: 3x<=15; divide by 3: x<=5."
+    },
+    {
+      "id": "adv7-q046",
+      "prompt": "Solve the inequality: -2x + 4 >= 10",
+      "type": "mcq",
+      "choices": ["x<=-3", "x>=-3", "x<=3", "x>=3"],
+      "answer": "x<=-3",
+      "difficulty": "medium",
+      "explanation": "Subtract 4: -2x>=6; divide by -2 and flip: x<=-3."
+    },
+    {
+      "id": "adv7-q047",
+      "prompt": "Which value makes the inequality 5 + x < 2 true?",
+      "type": "mcq",
+      "choices": ["-4", "0", "4", "3"],
+      "answer": "-4",
+      "difficulty": "easy",
+      "explanation": "5+(-4)=1, and 1<2."
+    },
+    {
+      "id": "adv7-q048",
+      "prompt": "Solve the inequality: 9 <= 3x",
+      "type": "mcq",
+      "choices": ["x>=3", "x<=3", "x>=6", "x<=6"],
+      "answer": "x>=3",
+      "difficulty": "easy",
+      "explanation": "Divide by 3: 3 <= x, so x >= 3."
+    },
+    {
+      "id": "adv7-q049",
+      "prompt": "Solve the inequality: x/(-2) < 5",
+      "type": "mcq",
+      "choices": ["x>-10", "x<-10", "x>2.5", "x<2.5"],
+      "answer": "x>-10",
+      "difficulty": "medium",
+      "explanation": "Multiply by -2 and flip the sign: x > -10."
+    },
+    {
+      "id": "adv7-q050",
+      "prompt": "Which inequality represents: at least 12?",
+      "type": "mcq",
+      "choices": ["x>=12", "x>12", "x<=12", "x<12"],
+      "answer": "x>=12",
+      "difficulty": "easy",
+      "explanation": "At least means greater than or equal to."
+    },
+    {
+      "id": "adv7-q051",
+      "prompt": "Simplify: 3x + 2 - (x - 5)",
+      "type": "mcq",
+      "choices": ["2x+7", "4x-3", "2x-3", "4x+7"],
+      "answer": "2x+7",
+      "difficulty": "medium",
+      "explanation": "Subtracting (x-5) gives -x+5, so 3x+2-x+5 = 2x+7."
+    },
+    {
+      "id": "adv7-q052",
+      "prompt": "Simplify: 2(3a - 1) - (a + 4)",
+      "type": "mcq",
+      "choices": ["5a-6", "7a+2", "5a+6", "a-6"],
+      "answer": "5a-6",
+      "difficulty": "medium",
+      "explanation": "2(3a-1)=6a-2, then 6a-2-a-4 = 5a-6."
+    },
+    {
+      "id": "adv7-q053",
+      "prompt": "Simplify: 5 - 2(1 - x)",
+      "type": "mcq",
+      "choices": ["2x+3", "-2x+3", "2x+7", "-2x+7"],
+      "answer": "2x+3",
+      "difficulty": "medium",
+      "explanation": "2(1-x)=2-2x, so 5-(2-2x)=3+2x."
+    },
+    {
+      "id": "adv7-q054",
+      "prompt": "Evaluate: -3(2y - 1) when y = -2",
+      "type": "mcq",
+      "choices": ["15", "-15", "9", "-9"],
+      "answer": "15",
+      "difficulty": "medium",
+      "explanation": "2*(-2)-1=-5; then -3*(-5)=15."
+    },
+    {
+      "id": "adv7-q055",
+      "prompt": "Evaluate: 4a - 3b when a = 2 and b = -1",
+      "type": "mcq",
+      "choices": ["11", "5", "-11", "-5"],
+      "answer": "11",
+      "difficulty": "medium",
+      "explanation": "4*2 - 3*(-1) = 8 + 3 = 11."
+    },
+    {
+      "id": "adv7-q056",
+      "prompt": "Solve: x/3 - 2 = 4",
+      "type": "short",
+      "answer": "18",
+      "difficulty": "medium",
+      "explanation": "Add 2: x/3=6; multiply by 3: x=18."
+    },
+    {
+      "id": "adv7-q057",
+      "prompt": "Solve: 0.2x + 1.5 = 2.3",
+      "type": "short",
+      "answer": "4",
+      "difficulty": "medium",
+      "explanation": "Subtract 1.5: 0.2x=0.8; divide by 0.2: x=4."
+    },
+    {
+      "id": "adv7-q058",
+      "prompt": "Solve: (x - 5)/2 = 7",
+      "type": "short",
+      "answer": "19",
+      "difficulty": "medium",
+      "explanation": "Multiply by 2: x-5=14; add 5: x=19."
+    },
+    {
+      "id": "adv7-q059",
+      "prompt": "Solve: 3(x + 4) - 2 = 16",
+      "type": "short",
+      "answer": "2",
+      "difficulty": "medium",
+      "explanation": "3(x+4)=18, so x+4=6 and x=2."
+    },
+    {
+      "id": "adv7-q060",
+      "prompt": "Solve: 5 - (2x - 3) = 14",
+      "type": "short",
+      "answer": "-3",
+      "difficulty": "medium",
+      "explanation": "5-(2x-3)=14 gives 8-2x=14, so x=-3."
+    },
+    {
+      "id": "adv7-q061",
+      "prompt": "Solve the inequality: 5x - 2 > 18",
+      "type": "mcq",
+      "choices": ["x>4", "x<4", "x>16", "x<16"],
+      "answer": "x>4",
+      "difficulty": "easy",
+      "explanation": "Add 2: 5x>20; divide by 5: x>4."
+    },
+    {
+      "id": "adv7-q062",
+      "prompt": "Solve the inequality: -4x <= 16",
+      "type": "mcq",
+      "choices": ["x>=-4", "x<=-4", "x>=4", "x<=4"],
+      "answer": "x>=-4",
+      "difficulty": "medium",
+      "explanation": "Divide by -4 and flip: x >= -4."
+    },
+    {
+      "id": "adv7-q063",
+      "prompt": "Solve the inequality: (x - 3)/2 >= 5",
+      "type": "mcq",
+      "choices": ["x>=13", "x<=13", "x>=7", "x<=7"],
+      "answer": "x>=13",
+      "difficulty": "medium",
+      "explanation": "Multiply by 2: x-3>=10; add 3: x>=13."
+    },
+    {
+      "id": "adv7-q064",
+      "prompt": "Solve the inequality: 0.3x < 2.1",
+      "type": "mcq",
+      "choices": ["x<7", "x>7", "x<0.7", "x>0.7"],
+      "answer": "x<7",
+      "difficulty": "medium",
+      "explanation": "Divide by 0.3: x < 7."
+    },
+    {
+      "id": "adv7-q065",
+      "prompt": "Which expression is equivalent to 2(x - 3) + x?",
+      "type": "mcq",
+      "choices": ["3x-6", "3x-3", "2x-6", "x-6"],
+      "answer": "3x-6",
+      "difficulty": "easy",
+      "explanation": "2(x-3)+x = 2x-6+x = 3x-6."
+    },
+    {
+      "id": "adv7-q066",
+      "prompt": "Simplify: 2x - 3y + 5x + y",
+      "type": "mcq",
+      "choices": ["7x-2y", "7x+4y", "3x-2y", "7x-4y"],
+      "answer": "7x-2y",
+      "difficulty": "medium",
+      "explanation": "Combine like terms: 2x+5x=7x and -3y+y=-2y."
+    },
+    {
+      "id": "adv7-q067",
+      "prompt": "Simplify: 4(2p + 1) - 3(p - 2)",
+      "type": "mcq",
+      "choices": ["5p+10", "11p-2", "5p-10", "11p+2"],
+      "answer": "5p+10",
+      "difficulty": "hard",
+      "explanation": "8p+4 - (3p-6) = 8p+4-3p+6 = 5p+10."
+    },
+    {
+      "id": "adv7-q068",
+      "prompt": "Solve: 2x + 3 = 3x - 5",
+      "type": "short",
+      "answer": "8",
+      "difficulty": "easy",
+      "explanation": "Subtract 2x: 3 = x - 5; add 5: x = 8."
+    },
+    {
+      "id": "adv7-q069",
+      "prompt": "Solve: 7y - 4 = 2(y + 8)",
+      "type": "short",
+      "answer": "4",
+      "difficulty": "medium",
+      "explanation": "7y-4=2y+16, so 5y=20 and y=4."
+    },
+    {
+      "id": "adv7-q070",
+      "prompt": "You need at least 60 points. You already have 45 points and earn 3 points per question. Which inequality represents the number of questions q you must answer?",
+      "type": "mcq",
+      "choices": ["45+3q>=60", "45+3q<=60", "45-3q>=60", "45+q>=60"],
+      "answer": "45+3q>=60",
+      "difficulty": "medium",
+      "explanation": "Start + earned >= goal: 45 + 3q >= 60."
+    },
+    {
+      "id": "adv7-q071",
+      "prompt": "Kara has x stickers. She gives away 5 and then triples the number she has left. Which expression represents the final number of stickers?",
+      "type": "mcq",
+      "choices": ["3(x-5)", "3x-5", "x-15", "x(3-5)"],
+      "answer": "3(x-5)",
+      "difficulty": "medium",
+      "explanation": "She has x-5 left, then triples it: 3(x-5)."
+    },
+    {
+      "id": "adv7-q072",
+      "prompt": "Solve: 2n - 7 = 13",
+      "type": "short",
+      "answer": "10",
+      "difficulty": "easy",
+      "explanation": "Add 7: 2n=20; divide by 2: n=10."
+    },
+    {
+      "id": "adv7-q073",
+      "prompt": "Simplify: 3(x - 2) + 2(4 - x)",
+      "type": "mcq",
+      "choices": ["x+2", "5x-2", "x-2", "-x+2"],
+      "answer": "x+2",
+      "difficulty": "hard",
+      "explanation": "3x-6 + 8-2x = x+2."
+    },
+    {
+      "id": "adv7-q074",
+      "prompt": "Evaluate: 1.5(x - 2) when x = 6",
+      "type": "mcq",
+      "choices": ["6", "3", "9", "12"],
+      "answer": "6",
+      "difficulty": "medium",
+      "explanation": "x-2=4, then 1.5*4=6."
+    },
+    {
+      "id": "adv7-q075",
+      "prompt": "Solve the inequality: -2(x + 3) > 8",
+      "type": "mcq",
+      "choices": ["x<-7", "x>-7", "x<1", "x>1"],
+      "answer": "x<-7",
+      "difficulty": "hard",
+      "explanation": "-2x-6>8 gives -2x>14, so x<-7."
+    },
+    {
+      "id": "adv7-q076",
+      "prompt": "Simplify: 4(3x - 2) - 2(x + 5)",
+      "type": "mcq",
+      "choices": ["10x-18", "10x+18", "14x-18", "14x+18"],
+      "answer": "10x-18",
+      "difficulty": "hard",
+      "explanation": "12x-8 - (2x+10) = 12x-8-2x-10 = 10x-18."
+    },
+    {
+      "id": "adv7-q077",
+      "prompt": "Simplify: -(2y - 3) + 5y",
+      "type": "mcq",
+      "choices": ["3y+3", "7y-3", "3y-3", "7y+3"],
+      "answer": "3y+3",
+      "difficulty": "medium",
+      "explanation": "-(2y-3)=-2y+3; then -2y+3+5y=3y+3."
+    },
+    {
+      "id": "adv7-q078",
+      "prompt": "Simplify: 7 - (4 - x)",
+      "type": "mcq",
+      "choices": ["x+3", "x-3", "-x+3", "11-x"],
+      "answer": "x+3",
+      "difficulty": "medium",
+      "explanation": "7-(4-x)=7-4+x=x+3."
+    },
+    {
+      "id": "adv7-q079",
+      "prompt": "Simplify: 2(x + 6) - (3x - 4)",
+      "type": "mcq",
+      "choices": ["-x+16", "x+8", "-x+8", "x+16"],
+      "answer": "-x+16",
+      "difficulty": "hard",
+      "explanation": "2x+12-(3x-4)=2x+12-3x+4=-x+16."
+    },
+    {
+      "id": "adv7-q080",
+      "prompt": "Evaluate: x/2 - 3 when x = 10",
+      "type": "mcq",
+      "choices": ["2", "-2", "8", "5"],
+      "answer": "2",
+      "difficulty": "easy",
+      "explanation": "10/2-3=5-3=2."
+    },
+    {
+      "id": "adv7-q081",
+      "prompt": "Evaluate: 5 - 2a when a = -4",
+      "type": "mcq",
+      "choices": ["13", "-13", "3", "-3"],
+      "answer": "13",
+      "difficulty": "easy",
+      "explanation": "5-2*(-4)=5+8=13."
+    },
+    {
+      "id": "adv7-q082",
+      "prompt": "Evaluate: (3b + 1)/2 when b = 5",
+      "type": "mcq",
+      "choices": ["8", "16", "7", "5"],
+      "answer": "8",
+      "difficulty": "medium",
+      "explanation": "(3*5+1)/2 = 16/2 = 8."
+    },
+    {
+      "id": "adv7-q083",
+      "prompt": "Solve: 0.75x = 9",
+      "type": "short",
+      "answer": "12",
+      "difficulty": "medium",
+      "explanation": "Divide by 0.75: x=12."
+    },
+    {
+      "id": "adv7-q084",
+      "prompt": "Solve: x/(-5) = 2",
+      "type": "short",
+      "answer": "-10",
+      "difficulty": "easy",
+      "explanation": "Multiply both sides by -5: x=-10."
+    },
+    {
+      "id": "adv7-q085",
+      "prompt": "Solve: 3x - 2 = 4x + 7",
+      "type": "short",
+      "answer": "-9",
+      "difficulty": "medium",
+      "explanation": "Subtract 3x: -2 = x+7; subtract 7: x=-9."
+    },
+    {
+      "id": "adv7-q086",
+      "prompt": "Solve: 2(x + 3) = x + 11",
+      "type": "short",
+      "answer": "5",
+      "difficulty": "medium",
+      "explanation": "2x+6=x+11; subtract x: x=5."
+    },
+    {
+      "id": "adv7-q087",
+      "prompt": "Solve: x/3 + x/6 = 9",
+      "type": "short",
+      "answer": "18",
+      "difficulty": "hard",
+      "explanation": "x/3=2x/6, so 2x/6+x/6=3x/6=x/2=9; x=18."
+    },
+    {
+      "id": "adv7-q088",
+      "prompt": "Solve: 4(2x - 1) = 3(x + 5)",
+      "type": "short",
+      "answer": "3.8",
+      "difficulty": "hard",
+      "explanation": "8x-4=3x+15; 5x=19; x=3.8."
+    },
+    {
+      "id": "adv7-q089",
+      "prompt": "Solve the inequality: 3x - 4 >= 11",
+      "type": "mcq",
+      "choices": ["x>=5", "x<=5", "x>=7", "x<=7"],
+      "answer": "x>=5",
+      "difficulty": "easy",
+      "explanation": "Add 4: 3x>=15; divide by 3: x>=5."
+    },
+    {
+      "id": "adv7-q090",
+      "prompt": "Solve the inequality: -5x < 20",
+      "type": "mcq",
+      "choices": ["x>-4", "x<-4", "x>4", "x<4"],
+      "answer": "x>-4",
+      "difficulty": "medium",
+      "explanation": "Divide by -5 and flip: x > -4."
+    },
+    {
+      "id": "adv7-q091",
+      "prompt": "Solve the inequality: 2 - x < -6",
+      "type": "mcq",
+      "choices": ["x>8", "x<8", "x>-8", "x<-8"],
+      "answer": "x>8",
+      "difficulty": "medium",
+      "explanation": "Subtract 2: -x<-8; multiply by -1 and flip: x>8."
+    },
+    {
+      "id": "adv7-q092",
+      "prompt": "Solve the inequality: 0.5x + 1 <= 4",
+      "type": "mcq",
+      "choices": ["x<=6", "x>=6", "x<=10", "x>=10"],
+      "answer": "x<=6",
+      "difficulty": "medium",
+      "explanation": "Subtract 1: 0.5x<=3; divide by 0.5: x<=6."
+    },
+    {
+      "id": "adv7-q093",
+      "prompt": "Solve the inequality: (x + 1)/3 > 2",
+      "type": "mcq",
+      "choices": ["x>5", "x<5", "x>7", "x<7"],
+      "answer": "x>5",
+      "difficulty": "medium",
+      "explanation": "Multiply by 3: x+1>6; subtract 1: x>5."
+    },
+    {
+      "id": "adv7-q094",
+      "prompt": "Which inequality represents: no more than 8?",
+      "type": "mcq",
+      "choices": ["x<=8", "x<8", "x>=8", "x>8"],
+      "answer": "x<=8",
+      "difficulty": "easy",
+      "explanation": "No more than means less than or equal to."
+    },
+    {
+      "id": "adv7-q095",
+      "prompt": "Which expression represents: ten less than a number n?",
+      "type": "mcq",
+      "choices": ["n-10", "10-n", "n+10", "10n"],
+      "answer": "n-10",
+      "difficulty": "easy",
+      "explanation": "Ten less than n means subtract 10: n-10."
+    },
+    {
+      "id": "adv7-q096",
+      "prompt": "Simplify: 3(2x - 5) + 2(x - 1)",
+      "type": "mcq",
+      "choices": ["8x-17", "8x+17", "7x-17", "7x+17"],
+      "answer": "8x-17",
+      "difficulty": "hard",
+      "explanation": "6x-15 + 2x-2 = 8x-17."
+    },
+    {
+      "id": "adv7-q097",
+      "prompt": "Simplify: (5x - 3) - (2x + 9)",
+      "type": "mcq",
+      "choices": ["3x-12", "7x+6", "3x+6", "7x-12"],
+      "answer": "3x-12",
+      "difficulty": "medium",
+      "explanation": "5x-3-2x-9 = 3x-12."
+    },
+    {
+      "id": "adv7-q098",
+      "prompt": "Solve: 2.5x + 5 = 20",
+      "type": "short",
+      "answer": "6",
+      "difficulty": "medium",
+      "explanation": "Subtract 5: 2.5x=15; divide by 2.5: x=6."
+    },
+    {
+      "id": "adv7-q099",
+      "prompt": "Solve: x/4 - 3 = 5",
+      "type": "short",
+      "answer": "32",
+      "difficulty": "medium",
+      "explanation": "Add 3: x/4=8; multiply by 4: x=32."
+    },
+    {
+      "id": "adv7-q100",
+      "prompt": "A gym charges a $12 sign-up fee plus $5 per month. The total cost was $42. How many months m did they pay for?",
+      "type": "short",
+      "answer": "6",
+      "difficulty": "medium",
+      "explanation": "12+5m=42; subtract 12: 5m=30; m=6."
+    },
+    {
+      "id": "adv7-q101",
+      "prompt": "Simplify: 6x - 2(x - 3)",
+      "type": "mcq",
+      "choices": ["4x+6", "8x-6", "4x-6", "8x+6"],
+      "answer": "4x+6",
+      "difficulty": "medium",
+      "explanation": "6x-(2x-6)=6x-2x+6=4x+6."
+    },
+    {
+      "id": "adv7-q102",
+      "prompt": "Simplify: -3(x - 4) + 2x",
+      "type": "mcq",
+      "choices": ["-x+12", "-5x-12", "x+12", "-x-12"],
+      "answer": "-x+12",
+      "difficulty": "medium",
+      "explanation": "-3x+12+2x=-x+12."
+    },
+    {
+      "id": "adv7-q103",
+      "prompt": "Simplify: (2x + 5) + (3x - 7)",
+      "type": "mcq",
+      "choices": ["5x-2", "5x+12", "x-2", "x+12"],
+      "answer": "5x-2",
+      "difficulty": "easy",
+      "explanation": "2x+5+3x-7=5x-2."
+    },
+    {
+      "id": "adv7-q104",
+      "prompt": "Simplify: 4 - (2 - 3x)",
+      "type": "mcq",
+      "choices": ["3x+2", "3x-2", "-3x+2", "-3x-2"],
+      "answer": "3x+2",
+      "difficulty": "medium",
+      "explanation": "4-(2-3x)=4-2+3x=3x+2."
+    },
+    {
+      "id": "adv7-q105",
+      "prompt": "Which expression is equivalent to 2(3x + 1) - (x - 5)?",
+      "type": "mcq",
+      "choices": ["5x+7", "7x-3", "5x-7", "7x+3"],
+      "answer": "5x+7",
+      "difficulty": "hard",
+      "explanation": "2(3x+1)=6x+2; subtract (x-5): 6x+2-x+5=5x+7."
+    },
+    {
+      "id": "adv7-q106",
+      "prompt": "Evaluate: 2x + y when x = -3 and y = 4",
+      "type": "mcq",
+      "choices": ["-2", "2", "-10", "10"],
+      "answer": "-2",
+      "difficulty": "easy",
+      "explanation": "2*(-3)+4=-6+4=-2."
+    },
+    {
+      "id": "adv7-q107",
+      "prompt": "Evaluate: (x - 1)^2 when x = 5",
+      "type": "mcq",
+      "choices": ["16", "8", "24", "4"],
+      "answer": "16",
+      "difficulty": "medium",
+      "explanation": "(5-1)^2=4^2=16."
+    },
+    {
+      "id": "adv7-q108",
+      "prompt": "Solve: 6x + 2 = 20",
+      "type": "short",
+      "answer": "3",
+      "difficulty": "easy",
+      "explanation": "Subtract 2: 6x=18; divide by 6: x=3."
+    },
+    {
+      "id": "adv7-q109",
+      "prompt": "Solve: 9 - 3x = 0",
+      "type": "short",
+      "answer": "3",
+      "difficulty": "easy",
+      "explanation": "-3x=-9; divide by -3: x=3."
+    },
+    {
+      "id": "adv7-q110",
+      "prompt": "Solve: 4x + 7 = 3x - 9",
+      "type": "short",
+      "answer": "-16",
+      "difficulty": "medium",
+      "explanation": "Subtract 3x: x+7=-9; subtract 7: x=-16."
+    },
+    {
+      "id": "adv7-q111",
+      "prompt": "Solve: 2(x - 5) + 3 = x + 4",
+      "type": "short",
+      "answer": "11",
+      "difficulty": "hard",
+      "explanation": "2x-10+3=x+4; x=11."
+    },
+    {
+      "id": "adv7-q112",
+      "prompt": "Solve: (x + 2)/5 = 3",
+      "type": "short",
+      "answer": "13",
+      "difficulty": "medium",
+      "explanation": "Multiply by 5: x+2=15; subtract 2: x=13."
+    },
+    {
+      "id": "adv7-q113",
+      "prompt": "Solve: 0.4x - 1.2 = 2.8",
+      "type": "short",
+      "answer": "10",
+      "difficulty": "medium",
+      "explanation": "Add 1.2: 0.4x=4; divide by 0.4: x=10."
+    },
+    {
+      "id": "adv7-q114",
+      "prompt": "Solve: 7(x + 1) = 56",
+      "type": "short",
+      "answer": "7",
+      "difficulty": "medium",
+      "explanation": "Divide by 7: x+1=8; subtract 1: x=7."
+    },
+    {
+      "id": "adv7-q115",
+      "prompt": "Solve the inequality: 6x + 1 < 19",
+      "type": "mcq",
+      "choices": ["x<3", "x>3", "x<18", "x>18"],
+      "answer": "x<3",
+      "difficulty": "easy",
+      "explanation": "Subtract 1: 6x<18; divide by 6: x<3."
+    },
+    {
+      "id": "adv7-q116",
+      "prompt": "Solve the inequality: -2x - 5 <= 9",
+      "type": "mcq",
+      "choices": ["x>=-7", "x<=-7", "x>=7", "x<=7"],
+      "answer": "x>=-7",
+      "difficulty": "medium",
+      "explanation": "Add 5: -2x<=14; divide by -2 and flip: x>=-7."
+    },
+    {
+      "id": "adv7-q117",
+      "prompt": "Solve the inequality: 3 - 0.5x >= 1",
+      "type": "mcq",
+      "choices": ["x<=4", "x>=4", "x<=-4", "x>=-4"],
+      "answer": "x<=4",
+      "difficulty": "medium",
+      "explanation": "Subtract 3: -0.5x>=-2; divide by -0.5 and flip: x<=4."
+    },
+    {
+      "id": "adv7-q118",
+      "prompt": "Solve the inequality: (x - 4)/(-2) > 3",
+      "type": "mcq",
+      "choices": ["x<-2", "x>-2", "x<10", "x>10"],
+      "answer": "x<-2",
+      "difficulty": "hard",
+      "explanation": "Multiply by -2 and flip: x-4 < -6; x < -2."
+    },
+    {
+      "id": "adv7-q119",
+      "prompt": "Solve the inequality: 2(x + 1) <= 3x - 4",
+      "type": "mcq",
+      "choices": ["x>=6", "x<=6", "x>=-6", "x<=-6"],
+      "answer": "x>=6",
+      "difficulty": "hard",
+      "explanation": "2x+2<=3x-4; add 4 and subtract 2x: 6<=x, so x>=6."
+    },
+    {
+      "id": "adv7-q120",
+      "prompt": "Which inequality matches: The sum of a number n and 8 is at most 20?",
+      "type": "mcq",
+      "choices": ["n+8<=20", "n+8>=20", "n-8<=20", "8n<=20"],
+      "answer": "n+8<=20",
+      "difficulty": "easy",
+      "explanation": "At most means <=, so n+8<=20."
+    },
+    {
+      "id": "adv7-q121",
+      "prompt": "A streaming service charges $9 plus $3 per movie. The total was $24. How many movies m were watched?",
+      "type": "short",
+      "answer": "5",
+      "difficulty": "medium",
+      "explanation": "9+3m=24; subtract 9: 3m=15; m=5."
+    },
+    {
+      "id": "adv7-q122",
+      "prompt": "You can spend at most $50. You already spent $18 and each item costs $4. Which inequality represents the number of items i you can buy?",
+      "type": "mcq",
+      "choices": ["18+4i<=50", "18+4i>=50", "18-4i<=50", "4i<=18+50"],
+      "answer": "18+4i<=50",
+      "difficulty": "medium",
+      "explanation": "Total cost <= 50: 18 + 4i <= 50."
+    },
+    {
+      "id": "adv7-q123",
+      "prompt": "Simplify: 0.5(4x - 6)",
+      "type": "mcq",
+      "choices": ["2x-3", "2x+3", "4x-3", "4x+3"],
+      "answer": "2x-3",
+      "difficulty": "medium",
+      "explanation": "Distribute 0.5: 0.5*4x=2x and 0.5*(-6)=-3."
+    },
+    {
+      "id": "adv7-q124",
+      "prompt": "Simplify: (3/4)x + (1/4)x",
+      "type": "mcq",
+      "choices": ["x", "(1/2)x", "(1/4)x", "(3/4)x"],
+      "answer": "x",
+      "difficulty": "medium",
+      "explanation": "(3/4+1/4)x = (1)x = x."
+    },
+    {
+      "id": "adv7-q125",
+      "prompt": "Solve: x/8 + x/4 = 6",
+      "type": "short",
+      "answer": "16",
+      "difficulty": "hard",
+      "explanation": "x/4=2x/8, so x/8+2x/8=3x/8=6; x=16."
+    },
+    {
+      "id": "adv7-q126",
+      "prompt": "Simplify: 5(x - 2) + 3(x + 4)",
+      "type": "mcq",
+      "choices": ["8x+2", "8x-2", "2x+8", "2x-8"],
+      "answer": "8x+2",
+      "difficulty": "hard",
+      "explanation": "5x-10 + 3x+12 = 8x+2."
+    },
+    {
+      "id": "adv7-q127",
+      "prompt": "Simplify: 2x - (-3x + 1)",
+      "type": "mcq",
+      "choices": ["5x-1", "-x+1", "5x+1", "-x-1"],
+      "answer": "5x-1",
+      "difficulty": "medium",
+      "explanation": "Subtracting (-3x+1) gives 2x+3x-1 = 5x-1."
+    },
+    {
+      "id": "adv7-q128",
+      "prompt": "Simplify: -(4 - 2x) - x",
+      "type": "mcq",
+      "choices": ["x-4", "-x-4", "x+4", "-x+4"],
+      "answer": "x-4",
+      "difficulty": "medium",
+      "explanation": "-(4-2x)=-4+2x; then -4+2x-x = x-4."
+    },
+    {
+      "id": "adv7-q129",
+      "prompt": "Simplify: 3(x + 2) - 2(x - 5)",
+      "type": "mcq",
+      "choices": ["x+16", "x-16", "5x+16", "5x-16"],
+      "answer": "x+16",
+      "difficulty": "hard",
+      "explanation": "3x+6 - (2x-10) = 3x+6-2x+10 = x+16."
+    },
+    {
+      "id": "adv7-q130",
+      "prompt": "Evaluate: 2(x + 1) - 3(x - 2) when x = 4",
+      "type": "mcq",
+      "choices": ["4", "-4", "10", "-10"],
+      "answer": "4",
+      "difficulty": "medium",
+      "explanation": "2*5 - 3*2 = 10 - 6 = 4."
+    },
+    {
+      "id": "adv7-q131",
+      "prompt": "Evaluate: 0.25(8y) when y = -3",
+      "type": "mcq",
+      "choices": ["-6", "6", "-24", "24"],
+      "answer": "-6",
+      "difficulty": "medium",
+      "explanation": "8y=-24, and 0.25*-24 = -6."
+    },
+    {
+      "id": "adv7-q132",
+      "prompt": "Solve: (2x - 1)/3 = 5",
+      "type": "short",
+      "answer": "8",
+      "difficulty": "medium",
+      "explanation": "Multiply by 3: 2x-1=15; add 1: 2x=16; x=8."
+    },
+    {
+      "id": "adv7-q133",
+      "prompt": "Solve: 1.2x + 0.6 = -1.8",
+      "type": "short",
+      "answer": "-2",
+      "difficulty": "medium",
+      "explanation": "Subtract 0.6: 1.2x=-2.4; divide by 1.2: x=-2."
+    },
+    {
+      "id": "adv7-q134",
+      "prompt": "Solve: -0.5x - 4 = 1",
+      "type": "short",
+      "answer": "-10",
+      "difficulty": "medium",
+      "explanation": "Add 4: -0.5x=5; divide by -0.5: x=-10."
+    },
+    {
+      "id": "adv7-q135",
+      "prompt": "Solve: 3(x - 1) = 2(x + 4)",
+      "type": "short",
+      "answer": "11",
+      "difficulty": "hard",
+      "explanation": "3x-3=2x+8; subtract 2x: x=11."
+    },
+    {
+      "id": "adv7-q136",
+      "prompt": "Solve: 5 - x/2 = 1",
+      "type": "short",
+      "answer": "8",
+      "difficulty": "medium",
+      "explanation": "Subtract 5: -x/2=-4; multiply by -2: x=8."
+    },
+    {
+      "id": "adv7-q137",
+      "prompt": "Solve: 0.1x + 2 = 1.4",
+      "type": "short",
+      "answer": "-6",
+      "difficulty": "medium",
+      "explanation": "Subtract 2: 0.1x=-0.6; divide by 0.1: x=-6."
+    },
+    {
+      "id": "adv7-q138",
+      "prompt": "Solve the inequality: 4 - x <= -1",
+      "type": "mcq",
+      "choices": ["x>=5", "x<=5", "x>=-5", "x<=-5"],
+      "answer": "x>=5",
+      "difficulty": "medium",
+      "explanation": "Subtract 4: -x<=-5; multiply by -1 and flip: x>=5."
+    },
+    {
+      "id": "adv7-q139",
+      "prompt": "Solve the inequality: -3(x - 2) >= 12",
+      "type": "mcq",
+      "choices": ["x<=-2", "x>=-2", "x<=6", "x>=6"],
+      "answer": "x<=-2",
+      "difficulty": "hard",
+      "explanation": "-3x+6>=12; -3x>=6; divide by -3 and flip: x<=-2."
+    },
+    {
+      "id": "adv7-q140",
+      "prompt": "Solve the inequality: 2x + 5 > 3(x - 1)",
+      "type": "mcq",
+      "choices": ["x<8", "x>8", "x<-8", "x>-8"],
+      "answer": "x<8",
+      "difficulty": "hard",
+      "explanation": "2x+5>3x-3; add 3 and subtract 2x: 8>x, so x<8."
+    },
+    {
+      "id": "adv7-q141",
+      "prompt": "Solve the inequality: x/5 - 1 >= 2",
+      "type": "mcq",
+      "choices": ["x>=15", "x<=15", "x>=5", "x<=5"],
+      "answer": "x>=15",
+      "difficulty": "medium",
+      "explanation": "Add 1: x/5>=3; multiply by 5: x>=15."
+    },
+    {
+      "id": "adv7-q142",
+      "prompt": "Solve the inequality: -0.25x <= 2",
+      "type": "mcq",
+      "choices": ["x>=-8", "x<=-8", "x>=8", "x<=8"],
+      "answer": "x>=-8",
+      "difficulty": "hard",
+      "explanation": "Divide by -0.25 and flip: x >= -8."
+    },
+    {
+      "id": "adv7-q143",
+      "prompt": "Translate into an inequality: n - 6 > 10",
+      "type": "mcq",
+      "choices": ["n-6>10", "n+6>10", "6-n>10", "n-6<10"],
+      "answer": "n-6>10",
+      "difficulty": "easy",
+      "explanation": "The inequality is already written as n-6>10."
+    },
+    {
+      "id": "adv7-q144",
+      "prompt": "A phone plan costs $25 plus $0.10 per text. You can spend at most $30. Which inequality represents the number of texts t you can send?",
+      "type": "mcq",
+      "choices": ["25+0.1t<=30", "25+0.1t>=30", "25-0.1t<=30", "0.1t<=25+30"],
+      "answer": "25+0.1t<=30",
+      "difficulty": "medium",
+      "explanation": "Total cost <= 30: 25 + 0.1t <= 30."
+    },
+    {
+      "id": "adv7-q145",
+      "prompt": "Simplify: 2(3 - x) + (x + 4)",
+      "type": "mcq",
+      "choices": ["10-x", "x+10", "2x+10", "10-2x"],
+      "answer": "10-x",
+      "difficulty": "medium",
+      "explanation": "2(3-x)=6-2x; then 6-2x+x+4 = 10-x."
+    },
+    {
+      "id": "adv7-q146",
+      "prompt": "Simplify: 4x + 2 - 3(x - 5)",
+      "type": "mcq",
+      "choices": ["x+17", "x-17", "7x-13", "7x+13"],
+      "answer": "x+17",
+      "difficulty": "hard",
+      "explanation": "4x+2-(3x-15)=4x+2-3x+15=x+17."
+    },
+    {
+      "id": "adv7-q147",
+      "prompt": "Solve: (7/10)x = 14",
+      "type": "short",
+      "answer": "20",
+      "difficulty": "medium",
+      "explanation": "Divide by 7/10 (or multiply by 10/7): x=20."
+    },
+    {
+      "id": "adv7-q148",
+      "prompt": "Solve: (x - 3) + (x + 5) = 20",
+      "type": "short",
+      "answer": "9",
+      "difficulty": "medium",
+      "explanation": "2x+2=20; 2x=18; x=9."
+    },
+    {
+      "id": "adv7-q149",
+      "prompt": "Evaluate: 3x^2 - 2x when x = -2",
+      "type": "mcq",
+      "choices": ["16", "-16", "4", "-4"],
+      "answer": "16",
+      "difficulty": "hard",
+      "explanation": "x^2=4, so 3*4 - 2*(-2) = 12 + 4 = 16."
+    },
+    {
+      "id": "adv7-q150",
+      "prompt": "Solve the inequality: (x - 1)/4 < -2",
+      "type": "mcq",
+      "choices": ["x<-7", "x>-7", "x<7", "x>7"],
+      "answer": "x<-7",
+      "difficulty": "medium",
+      "explanation": "Multiply by 4: x-1<-8; add 1: x<-7."
+    },
+    {
+      "id": "adv7-q151",
+      "prompt": "Simplify: 2x + 3 - 4(x - 2)",
+      "type": "mcq",
+      "choices": ["-2x+11", "2x+11", "-2x-5", "2x-5"],
+      "answer": "-2x+11",
+      "difficulty": "hard",
+      "explanation": "2x+3-(4x-8)=2x+3-4x+8=-2x+11."
+    },
+    {
+      "id": "adv7-q152",
+      "prompt": "Simplify: x/3 - 2x/9",
+      "type": "mcq",
+      "choices": ["x/9", "x/6", "x/3", "x"],
+      "answer": "x/9",
+      "difficulty": "hard",
+      "explanation": "x/3=3x/9, so 3x/9-2x/9=x/9."
+    },
+    {
+      "id": "adv7-q153",
+      "prompt": "Simplify: 1.5x + 0.5x - 2",
+      "type": "mcq",
+      "choices": ["2x-2", "2x+2", "1x-2", "1x+2"],
+      "answer": "2x-2",
+      "difficulty": "easy",
+      "explanation": "1.5x+0.5x=2x, so the expression is 2x-2."
+    },
+    {
+      "id": "adv7-q154",
+      "prompt": "Evaluate: 3(x - 1) - 2(x + 5) when x = 2",
+      "type": "mcq",
+      "choices": ["-11", "11", "-7", "7"],
+      "answer": "-11",
+      "difficulty": "medium",
+      "explanation": "3*1 - 2*7 = 3 - 14 = -11."
+    },
+    {
+      "id": "adv7-q155",
+      "prompt": "Solve: (3/5)x = -9",
+      "type": "short",
+      "answer": "-15",
+      "difficulty": "medium",
+      "explanation": "Multiply both sides by 5/3: x=-15."
+    },
+    {
+      "id": "adv7-q156",
+      "prompt": "Solve: 2.4 - 0.3x = 0.9",
+      "type": "short",
+      "answer": "5",
+      "difficulty": "medium",
+      "explanation": "Subtract 2.4: -0.3x=-1.5; divide by -0.3: x=5."
+    },
+    {
+      "id": "adv7-q157",
+      "prompt": "Solve: (x + 6)/(-3) = 2",
+      "type": "short",
+      "answer": "-12",
+      "difficulty": "medium",
+      "explanation": "Multiply by -3: x+6=-6; x=-12."
+    },
+    {
+      "id": "adv7-q158",
+      "prompt": "Solve: 5(x - 2) = 3(x + 4)",
+      "type": "short",
+      "answer": "11",
+      "difficulty": "hard",
+      "explanation": "5x-10=3x+12; 2x=22; x=11."
+    },
+    {
+      "id": "adv7-q159",
+      "prompt": "Solve: (x - 1)/3 = (x + 5)/6",
+      "type": "short",
+      "answer": "7",
+      "difficulty": "hard",
+      "explanation": "Multiply by 6: 2(x-1)=x+5; x=7."
+    },
+    {
+      "id": "adv7-q160",
+      "prompt": "Solve: 0.6(x - 5) = -3",
+      "type": "short",
+      "answer": "0",
+      "difficulty": "hard",
+      "explanation": "Divide by 0.6: x-5=-5; x=0."
+    },
+    {
+      "id": "adv7-q161",
+      "prompt": "Solve the inequality: 5 - 2x > -1",
+      "type": "mcq",
+      "choices": ["x<3", "x>3", "x<-3", "x>-3"],
+      "answer": "x<3",
+      "difficulty": "medium",
+      "explanation": "Subtract 5: -2x>-6; divide by -2 and flip: x<3."
+    },
+    {
+      "id": "adv7-q162",
+      "prompt": "Solve the inequality: 3(x + 2) <= 2x + 10",
+      "type": "mcq",
+      "choices": ["x<=4", "x>=4", "x<=16", "x>=16"],
+      "answer": "x<=4",
+      "difficulty": "medium",
+      "explanation": "3x+6<=2x+10; subtract 2x: x<=4."
+    },
+    {
+      "id": "adv7-q163",
+      "prompt": "Solve the inequality: (x - 2)/5 <= -1",
+      "type": "mcq",
+      "choices": ["x<=-3", "x>=-3", "x<=7", "x>=7"],
+      "answer": "x<=-3",
+      "difficulty": "easy",
+      "explanation": "Multiply by 5: x-2<=-5; x<=-3."
+    },
+    {
+      "id": "adv7-q164",
+      "prompt": "Solve the inequality: -(x + 4) >= 2",
+      "type": "mcq",
+      "choices": ["x<=-6", "x>=-6", "x<=6", "x>=6"],
+      "answer": "x<=-6",
+      "difficulty": "medium",
+      "explanation": "-x-4>=2; -x>=6; multiply by -1 and flip: x<=-6."
+    },
+    {
+      "id": "adv7-q165",
+      "prompt": "Solve the inequality: 2.5x >= -10",
+      "type": "mcq",
+      "choices": ["x>=-4", "x<=-4", "x>=4", "x<=4"],
+      "answer": "x>=-4",
+      "difficulty": "easy",
+      "explanation": "Divide by 2.5: x>=-4."
+    },
+    {
+      "id": "adv7-q166",
+      "prompt": "Which expression gives the perimeter of a square with side length s?",
+      "type": "mcq",
+      "choices": ["4s", "s^4", "2s", "s/4"],
+      "answer": "4s",
+      "difficulty": "easy",
+      "explanation": "Perimeter of a square is 4 times the side length: 4s."
+    },
+    {
+      "id": "adv7-q167",
+      "prompt": "Cupcakes cost $1.50 each and delivery is $2. Which expression represents the total cost for c cupcakes?",
+      "type": "mcq",
+      "choices": ["1.5c+2", "1.5+c+2", "2c+1.5", "1.5(c+2)"],
+      "answer": "1.5c+2",
+      "difficulty": "easy",
+      "explanation": "Cost is 1.5 per cupcake plus 2 dollars: 1.5c+2."
+    },
+    {
+      "id": "adv7-q168",
+      "prompt": "Solve: 2n + 3 = 19",
+      "type": "short",
+      "answer": "8",
+      "difficulty": "easy",
+      "explanation": "Subtract 3: 2n=16; n=8."
+    },
+    {
+      "id": "adv7-q169",
+      "prompt": "A theater has 120 seats. 35 are already filled. Each group has 5 students. Which inequality represents the number of groups g that can still fit?",
+      "type": "mcq",
+      "choices": ["35+5g<=120", "35+5g>=120", "35-5g<=120", "5g<=35+120"],
+      "answer": "35+5g<=120",
+      "difficulty": "medium",
+      "explanation": "Filled seats + seats from groups must be <= 120."
+    },
+    {
+      "id": "adv7-q170",
+      "prompt": "Simplify: 2(x - 3) + 2(3 - x)",
+      "type": "mcq",
+      "choices": ["0", "2x", "-2x", "6"],
+      "answer": "0",
+      "difficulty": "medium",
+      "explanation": "2x-6 + 6-2x = 0."
+    },
+    {
+      "id": "adv7-q171",
+      "prompt": "Simplify: 5 - (2 - (x - 1))",
+      "type": "mcq",
+      "choices": ["x+2", "x-2", "2-x", "6-x"],
+      "answer": "x+2",
+      "difficulty": "hard",
+      "explanation": "2-(x-1)=3-x; then 5-(3-x)=2+x."
+    },
+    {
+      "id": "adv7-q172",
+      "prompt": "Evaluate: 2a^2 + b when a = 3 and b = -2",
+      "type": "mcq",
+      "choices": ["16", "20", "14", "-16"],
+      "answer": "16",
+      "difficulty": "hard",
+      "explanation": "2*3^2 + (-2) = 2*9-2 = 16."
+    },
+    {
+      "id": "adv7-q173",
+      "prompt": "Solve: x/0.2 = -15",
+      "type": "short",
+      "answer": "-3",
+      "difficulty": "medium",
+      "explanation": "Multiply both sides by 0.2: x=-3."
+    },
+    {
+      "id": "adv7-q174",
+      "prompt": "Solve the inequality: x/(-0.5) <= 6",
+      "type": "mcq",
+      "choices": ["x>=-3", "x<=-3", "x>=3", "x<=3"],
+      "answer": "x>=-3",
+      "difficulty": "hard",
+      "explanation": "Multiply by -0.5 and flip: x >= -3."
+    },
+    {
+      "id": "adv7-q175",
+      "prompt": "Solve: 4 - x/3 = 1",
+      "type": "short",
+      "answer": "9",
+      "difficulty": "medium",
+      "explanation": "Subtract 4: -x/3=-3; multiply by -3: x=9."
+    },
+    {
+      "id": "adv7-q176",
+      "prompt": "Simplify: 3x - 2(4 - x)",
+      "type": "mcq",
+      "choices": ["5x-8", "x-8", "5x+8", "x+8"],
+      "answer": "5x-8",
+      "difficulty": "hard",
+      "explanation": "3x-2(4-x)=3x-8+2x=5x-8."
+    },
+    {
+      "id": "adv7-q177",
+      "prompt": "Simplify: (x + 1) + (x - 1)",
+      "type": "mcq",
+      "choices": ["2x", "x", "2", "0"],
+      "answer": "2x",
+      "difficulty": "easy",
+      "explanation": "The +1 and -1 cancel, leaving 2x."
+    },
+    {
+      "id": "adv7-q178",
+      "prompt": "Simplify: 2(x/4 + 3)",
+      "type": "mcq",
+      "choices": ["x/2+6", "x/8+6", "x/2+3", "x/4+6"],
+      "answer": "x/2+6",
+      "difficulty": "medium",
+      "explanation": "Distribute 2: 2*(x/4)=x/2 and 2*3=6."
+    },
+    {
+      "id": "adv7-q179",
+      "prompt": "Evaluate: -(x^2) when x = -4",
+      "type": "mcq",
+      "choices": ["-16", "16", "-8", "8"],
+      "answer": "-16",
+      "difficulty": "medium",
+      "explanation": "x^2=16, then negate: -(16)=-16."
+    },
+    {
+      "id": "adv7-q180",
+      "prompt": "Solve: x - 0.6 = 1.9",
+      "type": "short",
+      "answer": "2.5",
+      "difficulty": "easy",
+      "explanation": "Add 0.6 to both sides: x=2.5."
+    },
+    {
+      "id": "adv7-q181",
+      "prompt": "Solve: -3(x + 2) = 15",
+      "type": "short",
+      "answer": "-7",
+      "difficulty": "medium",
+      "explanation": "Divide by -3: x+2=-5; x=-7."
+    },
+    {
+      "id": "adv7-q182",
+      "prompt": "Solve: x/5 + 4 = x/10 + 7",
+      "type": "short",
+      "answer": "30",
+      "difficulty": "hard",
+      "explanation": "Multiply by 10: 2x+40=x+70; x=30."
+    },
+    {
+      "id": "adv7-q183",
+      "prompt": "Solve: 0.25x + 0.5 = 3",
+      "type": "short",
+      "answer": "10",
+      "difficulty": "medium",
+      "explanation": "Subtract 0.5: 0.25x=2.5; divide by 0.25: x=10."
+    },
+    {
+      "id": "adv7-q184",
+      "prompt": "Solve: 2x + 3 = 15 - x",
+      "type": "short",
+      "answer": "4",
+      "difficulty": "medium",
+      "explanation": "Add x: 3x+3=15; 3x=12; x=4."
+    },
+    {
+      "id": "adv7-q185",
+      "prompt": "Solve the inequality: (2x)/3 >= 4",
+      "type": "mcq",
+      "choices": ["x>=6", "x<=6", "x>=2", "x<=2"],
+      "answer": "x>=6",
+      "difficulty": "medium",
+      "explanation": "Multiply by 3: 2x>=12; divide by 2: x>=6."
+    },
+    {
+      "id": "adv7-q186",
+      "prompt": "Solve the inequality: -(x - 5) < 2",
+      "type": "mcq",
+      "choices": ["x>3", "x<3", "x>7", "x<7"],
+      "answer": "x>3",
+      "difficulty": "hard",
+      "explanation": "-x+5<2; -x<-3; multiply by -1 and flip: x>3."
+    },
+    {
+      "id": "adv7-q187",
+      "prompt": "Solve the inequality: 1 - 3x >= 10",
+      "type": "mcq",
+      "choices": ["x<=-3", "x>=-3", "x<=3", "x>=3"],
+      "answer": "x<=-3",
+      "difficulty": "medium",
+      "explanation": "Subtract 1: -3x>=9; divide by -3 and flip: x<=-3."
+    },
+    {
+      "id": "adv7-q188",
+      "prompt": "Solve the inequality: 0.2(x + 5) > 1",
+      "type": "mcq",
+      "choices": ["x>0", "x<0", "x>10", "x<10"],
+      "answer": "x>0",
+      "difficulty": "medium",
+      "explanation": "Divide by 0.2: x+5>5; x>0."
+    },
+    {
+      "id": "adv7-q189",
+      "prompt": "Which inequality matches: The product of 4 and a number n is less than 20?",
+      "type": "mcq",
+      "choices": ["4n<20", "4+n<20", "n/4<20", "4n>20"],
+      "answer": "4n<20",
+      "difficulty": "easy",
+      "explanation": "Product means multiply: 4n, and less than 20 means <20."
+    },
+    {
+      "id": "adv7-q190",
+      "prompt": "A taxi charges $3 plus $2 per mile. You can spend at most $19. How many miles m can you ride at most?",
+      "type": "mcq",
+      "choices": ["8", "6", "10", "16"],
+      "answer": "8",
+      "difficulty": "medium",
+      "explanation": "3+2m<=19; 2m<=16; m<=8."
+    },
+    {
+      "id": "adv7-q191",
+      "prompt": "Simplify: 0.3(10x - 5)",
+      "type": "mcq",
+      "choices": ["3x-1.5", "3x+1.5", "0.3x-5", "10x-1.5"],
+      "answer": "3x-1.5",
+      "difficulty": "medium",
+      "explanation": "0.3*10x=3x and 0.3*(-5)=-1.5."
+    },
+    {
+      "id": "adv7-q192",
+      "prompt": "Simplify: 7 - 3(2 - x)",
+      "type": "mcq",
+      "choices": ["3x+1", "3x-1", "1-3x", "13-3x"],
+      "answer": "3x+1",
+      "difficulty": "hard",
+      "explanation": "7-3(2-x)=7-(6-3x)=1+3x."
+    },
+    {
+      "id": "adv7-q193",
+      "prompt": "Evaluate: 2(x - 3)^2 when x = -1",
+      "type": "mcq",
+      "choices": ["32", "-32", "16", "-16"],
+      "answer": "32",
+      "difficulty": "hard",
+      "explanation": "x-3=-4; (-4)^2=16; 2*16=32."
+    },
+    {
+      "id": "adv7-q194",
+      "prompt": "Solve: (x - 2)/4 + 1 = 3",
+      "type": "short",
+      "answer": "10",
+      "difficulty": "medium",
+      "explanation": "Subtract 1: (x-2)/4=2; x-2=8; x=10."
+    },
+    {
+      "id": "adv7-q195",
+      "prompt": "Solve: 5(x + 1) - 2(x - 4) = 31",
+      "type": "short",
+      "answer": "6",
+      "difficulty": "hard",
+      "explanation": "5x+5-2x+8=31; 3x+13=31; x=6."
+    },
+    {
+      "id": "adv7-q196",
+      "prompt": "Solve the inequality: 5 - x/2 >= 1",
+      "type": "mcq",
+      "choices": ["x<=8", "x>=8", "x<=-8", "x>=-8"],
+      "answer": "x<=8",
+      "difficulty": "medium",
+      "explanation": "Subtract 5: -x/2>=-4; multiply by -2 and flip: x<=8."
+    },
+    {
+      "id": "adv7-q197",
+      "prompt": "Solve the inequality: 3(1 - x) <= -6",
+      "type": "mcq",
+      "choices": ["x>=3", "x<=3", "x>=-3", "x<=-3"],
+      "answer": "x>=3",
+      "difficulty": "hard",
+      "explanation": "3-3x<=-6; -3x<=-9; divide by -3 and flip: x>=3."
+    },
+    {
+      "id": "adv7-q198",
+      "prompt": "Solve: x/3 - x/9 = 4",
+      "type": "short",
+      "answer": "18",
+      "difficulty": "hard",
+      "explanation": "x/3=3x/9; 3x/9-x/9=2x/9=4; x=18."
+    },
+    {
+      "id": "adv7-q199",
+      "prompt": "Which expression represents: half of the difference of x and 8?",
+      "type": "mcq",
+      "choices": ["(x-8)/2", "x-(8/2)", "(8-x)/2", "x/2-8"],
+      "answer": "(x-8)/2",
+      "difficulty": "medium",
+      "explanation": "Difference of x and 8 is x-8, and half means divide by 2."
+    },
+    {
+      "id": "adv7-q200",
+      "prompt": "Solve the inequality: 2x + 1 > x - 5",
+      "type": "mcq",
+      "choices": ["x>-6", "x<-6", "x>6", "x<6"],
+      "answer": "x>-6",
+      "difficulty": "easy",
+      "explanation": "Subtract x: x+1>-5; subtract 1: x>-6."
+    }
+  ]
+}

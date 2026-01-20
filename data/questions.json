@@ -1,0 +1,1794 @@
+{
+  "unit": "Unit: Rational Number Arithmetic",
+  "questions": [
+    {
+      "id": "rna-q001",
+      "prompt": "What is -8 + 13?",
+      "type": "mcq",
+      "choices": ["-21", "5", "-5", "21"],
+      "answer": "5",
+      "difficulty": "easy",
+      "explanation": "13 is 8 more than -8, so the sum is 5."
+    },
+    {
+      "id": "rna-q002",
+      "prompt": "What is -14 + 6?",
+      "type": "mcq",
+      "choices": ["-20", "-8", "8", "20"],
+      "answer": "-8",
+      "difficulty": "easy",
+      "explanation": "Adding 6 to -14 moves 6 steps toward zero: -8."
+    },
+    {
+      "id": "rna-q003",
+      "prompt": "What is 9 + (-12)?",
+      "type": "mcq",
+      "choices": ["-21", "-3", "3", "21"],
+      "answer": "-3",
+      "difficulty": "easy",
+      "explanation": "9 + (-12) = 9 - 12 = -3."
+    },
+    {
+      "id": "rna-q004",
+      "prompt": "What is -5 - 11?",
+      "type": "mcq",
+      "choices": ["6", "-6", "-16", "16"],
+      "answer": "-16",
+      "difficulty": "easy",
+      "explanation": "Subtracting 11 from -5 moves 11 more negative: -16."
+    },
+    {
+      "id": "rna-q005",
+      "prompt": "What is -18 - (-7)?",
+      "type": "mcq",
+      "choices": ["-25", "-11", "11", "25"],
+      "answer": "-11",
+      "difficulty": "easy",
+      "explanation": "Subtracting a negative is adding: -18 + 7 = -11."
+    },
+    {
+      "id": "rna-q006",
+      "prompt": "What is 4 - (-9)?",
+      "type": "mcq",
+      "choices": ["-5", "5", "13", "-13"],
+      "answer": "13",
+      "difficulty": "easy",
+      "explanation": "4 - (-9) = 4 + 9 = 13."
+    },
+    {
+      "id": "rna-q007",
+      "prompt": "What is -7 + (-6)?",
+      "type": "mcq",
+      "choices": ["-1", "1", "-13", "13"],
+      "answer": "-13",
+      "difficulty": "easy",
+      "explanation": "Add negatives by adding absolute values and keeping the negative sign: -(7+6) = -13."
+    },
+    {
+      "id": "rna-q008",
+      "prompt": "What is 15 - 22?",
+      "type": "mcq",
+      "choices": ["7", "-7", "37", "-37"],
+      "answer": "-7",
+      "difficulty": "easy",
+      "explanation": "15 - 22 = -(22 - 15) = -7."
+    },
+    {
+      "id": "rna-q009",
+      "prompt": "What is -3 - (-3)?",
+      "type": "mcq",
+      "choices": ["-6", "0", "6", "-3"],
+      "answer": "0",
+      "difficulty": "easy",
+      "explanation": "-3 - (-3) = -3 + 3 = 0."
+    },
+    {
+      "id": "rna-q010",
+      "prompt": "What is -20 + 20?",
+      "type": "mcq",
+      "choices": ["0", "40", "-40", "20"],
+      "answer": "0",
+      "difficulty": "easy",
+      "explanation": "A number plus its opposite equals 0."
+    },
+    {
+      "id": "rna-q011",
+      "prompt": "What is -25 + 9?",
+      "type": "mcq",
+      "choices": ["-34", "-16", "16", "34"],
+      "answer": "-16",
+      "difficulty": "easy",
+      "explanation": "-25 + 9 = -(25 - 9) = -16."
+    },
+    {
+      "id": "rna-q012",
+      "prompt": "What is 6 + (-19)?",
+      "type": "mcq",
+      "choices": ["13", "-13", "-25", "25"],
+      "answer": "-13",
+      "difficulty": "easy",
+      "explanation": "6 - 19 = -13."
+    },
+    {
+      "id": "rna-q013",
+      "prompt": "What is -2 - 14?",
+      "type": "mcq",
+      "choices": ["12", "-12", "-16", "16"],
+      "answer": "-16",
+      "difficulty": "easy",
+      "explanation": "-2 - 14 = -16."
+    },
+    {
+      "id": "rna-q014",
+      "prompt": "What is 17 + (-8)?",
+      "type": "mcq",
+      "choices": ["9", "-9", "25", "-25"],
+      "answer": "9",
+      "difficulty": "easy",
+      "explanation": "17 - 8 = 9."
+    },
+    {
+      "id": "rna-q015",
+      "prompt": "What is -12 - (-20)?",
+      "type": "mcq",
+      "choices": ["-32", "-8", "8", "32"],
+      "answer": "8",
+      "difficulty": "easy",
+      "explanation": "-12 - (-20) = -12 + 20 = 8."
+    },
+    {
+      "id": "rna-q016",
+      "prompt": "What is -9 + 4 + (-6)?",
+      "type": "mcq",
+      "choices": ["-11", "-1", "1", "11"],
+      "answer": "-11",
+      "difficulty": "easy",
+      "explanation": "-9 + 4 = -5, then -5 + (-6) = -11."
+    },
+    {
+      "id": "rna-q017",
+      "prompt": "What is 10 - 3 - 12?",
+      "type": "mcq",
+      "choices": ["-5", "5", "-19", "19"],
+      "answer": "-5",
+      "difficulty": "easy",
+      "explanation": "10 - 3 = 7, then 7 - 12 = -5."
+    },
+    {
+      "id": "rna-q018",
+      "prompt": "What is -4 + 7 - 9?",
+      "type": "mcq",
+      "choices": ["-6", "6", "-12", "12"],
+      "answer": "-6",
+      "difficulty": "easy",
+      "explanation": "-4 + 7 = 3, then 3 - 9 = -6."
+    },
+    {
+      "id": "rna-q019",
+      "prompt": "What is the value of -(-15)?",
+      "type": "mcq",
+      "choices": ["-15", "15", "0", "30"],
+      "answer": "15",
+      "difficulty": "easy",
+      "explanation": "The opposite of -15 is 15."
+    },
+    {
+      "id": "rna-q020",
+      "prompt": "What is the value of | -9 |?",
+      "type": "mcq",
+      "choices": ["-9", "9", "0", "18"],
+      "answer": "9",
+      "difficulty": "easy",
+      "explanation": "Absolute value is distance from 0, so it is positive: 9."
+    },
+    {
+      "id": "rna-q021",
+      "prompt": "What is -30 + 12?",
+      "type": "mcq",
+      "choices": ["-42", "-18", "18", "42"],
+      "answer": "-18",
+      "difficulty": "easy",
+      "explanation": "-30 + 12 = -(30 - 12) = -18."
+    },
+    {
+      "id": "rna-q022",
+      "prompt": "What is 2 - 9 + (-4)?",
+      "type": "mcq",
+      "choices": ["-11", "11", "-3", "3"],
+      "answer": "-11",
+      "difficulty": "easy",
+      "explanation": "2 - 9 = -7, then -7 + (-4) = -11."
+    },
+    {
+      "id": "rna-q023",
+      "prompt": "What is -6 - 5 + 2?",
+      "type": "mcq",
+      "choices": ["-9", "9", "-13", "13"],
+      "answer": "-9",
+      "difficulty": "easy",
+      "explanation": "-6 - 5 = -11, then -11 + 2 = -9."
+    },
+    {
+      "id": "rna-q024",
+      "prompt": "What is -1 - 8 - (-3)?",
+      "type": "mcq",
+      "choices": ["-12", "-6", "6", "12"],
+      "answer": "-6",
+      "difficulty": "easy",
+      "explanation": "-1 - 8 = -9, then -9 - (-3) = -9 + 3 = -6."
+    },
+    {
+      "id": "rna-q025",
+      "prompt": "What is -13 + (-9) + 5?",
+      "type": "mcq",
+      "choices": ["-27", "-17", "17", "27"],
+      "answer": "-17",
+      "difficulty": "easy",
+      "explanation": "-13 + (-9) = -22, then -22 + 5 = -17."
+    },
+    {
+      "id": "rna-q026",
+      "prompt": "What is 7 - (-2) - (-6)?",
+      "type": "mcq",
+      "choices": ["3", "11", "15", "-15"],
+      "answer": "15",
+      "difficulty": "medium",
+      "explanation": "7 - (-2) = 9, then 9 - (-6) = 9 + 6 = 15."
+    },
+    {
+      "id": "rna-q027",
+      "prompt": "What is -16 + 5 - (-4)?",
+      "type": "mcq",
+      "choices": ["-15", "-7", "7", "15"],
+      "answer": "-7",
+      "difficulty": "medium",
+      "explanation": "-16 + 5 = -11, then -11 - (-4) = -11 + 4 = -7."
+    },
+    {
+      "id": "rna-q028",
+      "prompt": "What is 18 - (-7) + (-20)?",
+      "type": "mcq",
+      "choices": ["5", "-5", "45", "-45"],
+      "answer": "5",
+      "difficulty": "medium",
+      "explanation": "18 - (-7) = 25, then 25 + (-20) = 5."
+    },
+    {
+      "id": "rna-q029",
+      "prompt": "What is -9 - (-14) - 3?",
+      "type": "mcq",
+      "choices": ["2", "-2", "8", "-8"],
+      "answer": "2",
+      "difficulty": "medium",
+      "explanation": "-9 - (-14) = 5, then 5 - 3 = 2."
+    },
+    {
+      "id": "rna-q030",
+      "prompt": "Solve: x + (-7) = 15",
+      "type": "short",
+      "answer": "22",
+      "difficulty": "easy",
+      "explanation": "Add 7 to both sides: x = 15 + 7 = 22."
+    },
+    {
+      "id": "rna-q031",
+      "prompt": "Solve: x - 9 = -4",
+      "type": "short",
+      "answer": "5",
+      "difficulty": "easy",
+      "explanation": "Add 9 to both sides: x = -4 + 9 = 5."
+    },
+    {
+      "id": "rna-q032",
+      "prompt": "Solve: x + 12 = -3",
+      "type": "short",
+      "answer": "-15",
+      "difficulty": "easy",
+      "explanation": "Subtract 12 from both sides: x = -3 - 12 = -15."
+    },
+    {
+      "id": "rna-q033",
+      "prompt": "What is -40 - (-18)?",
+      "type": "mcq",
+      "choices": ["-58", "-22", "22", "58"],
+      "answer": "-22",
+      "difficulty": "easy",
+      "explanation": "-40 - (-18) = -40 + 18 = -22."
+    },
+    {
+      "id": "rna-q034",
+      "prompt": "What is 23 + (-27)?",
+      "type": "mcq",
+      "choices": ["-50", "-4", "4", "50"],
+      "answer": "-4",
+      "difficulty": "easy",
+      "explanation": "23 - 27 = -4."
+    },
+    {
+      "id": "rna-q035",
+      "prompt": "What is -11 + 3 + 8?",
+      "type": "mcq",
+      "choices": ["0", "-16", "16", "6"],
+      "answer": "0",
+      "difficulty": "easy",
+      "explanation": "-11 + 3 = -8, then -8 + 8 = 0."
+    },
+    {
+      "id": "rna-q036",
+      "prompt": "What is -6 + 2 - 10?",
+      "type": "mcq",
+      "choices": ["-14", "-4", "4", "14"],
+      "answer": "-14",
+      "difficulty": "easy",
+      "explanation": "-6 + 2 = -4, then -4 - 10 = -14."
+    },
+    {
+      "id": "rna-q037",
+      "prompt": "What is 0 - (-17)?",
+      "type": "mcq",
+      "choices": ["-17", "0", "17", "34"],
+      "answer": "17",
+      "difficulty": "easy",
+      "explanation": "0 - (-17) = 0 + 17 = 17."
+    },
+    {
+      "id": "rna-q038",
+      "prompt": "What is -1 + (-1) + (-1) + (-1)?",
+      "type": "mcq",
+      "choices": ["-4", "4", "0", "-2"],
+      "answer": "-4",
+      "difficulty": "easy",
+      "explanation": "Adding -1 four times gives -4."
+    },
+    {
+      "id": "rna-q039",
+      "prompt": "Which is greater?",
+      "type": "mcq",
+      "choices": ["-3", "-7", "They are equal", "Not enough information"],
+      "answer": "-3",
+      "difficulty": "easy",
+      "explanation": "-3 is closer to 0 than -7, so it is greater."
+    },
+    {
+      "id": "rna-q040",
+      "prompt": "Which is greater?",
+      "type": "mcq",
+      "choices": ["-12", "5", "They are equal", "0"],
+      "answer": "5",
+      "difficulty": "easy",
+      "explanation": "Any positive number is greater than any negative number."
+    },
+    {
+      "id": "rna-q041",
+      "prompt": "What is 1/4 + 1/4?",
+      "type": "mcq",
+      "choices": ["1/2", "2/8", "1/8", "2/4"],
+      "answer": "1/2",
+      "difficulty": "easy",
+      "explanation": "Same denominator: (1+1)/4 = 2/4 = 1/2."
+    },
+    {
+      "id": "rna-q042",
+      "prompt": "What is -3/5 + 1/5?",
+      "type": "mcq",
+      "choices": ["-4/5", "-2/5", "2/5", "4/5"],
+      "answer": "-2/5",
+      "difficulty": "easy",
+      "explanation": "Same denominator: (-3+1)/5 = -2/5."
+    },
+    {
+      "id": "rna-q043",
+      "prompt": "What is 7/8 - 3/8?",
+      "type": "mcq",
+      "choices": ["4/8", "1/2", "3/8", "5/8"],
+      "answer": "1/2",
+      "difficulty": "easy",
+      "explanation": "7/8 - 3/8 = 4/8, and 4/8 simplifies to 1/2."
+    },
+    {
+      "id": "rna-q044",
+      "prompt": "What is -2/3 - 1/3?",
+      "type": "mcq",
+      "choices": ["-1", "-3/3", "1", "-1/3"],
+      "answer": "-1",
+      "difficulty": "easy",
+      "explanation": "-2/3 - 1/3 = -3/3 = -1."
+    },
+    {
+      "id": "rna-q045",
+      "prompt": "What is 2/7 + 3/7?",
+      "type": "mcq",
+      "choices": ["5/7", "5/14", "1/7", "3/14"],
+      "answer": "5/7",
+      "difficulty": "easy",
+      "explanation": "Same denominator: (2+3)/7 = 5/7."
+    },
+    {
+      "id": "rna-q046",
+      "prompt": "What is 5/6 - 1/6?",
+      "type": "mcq",
+      "choices": ["4/6", "2/3", "1/6", "5/12"],
+      "answer": "2/3",
+      "difficulty": "easy",
+      "explanation": "5/6 - 1/6 = 4/6, and 4/6 simplifies to 2/3."
+    },
+    {
+      "id": "rna-q047",
+      "prompt": "What is 1/2 + 1/6?",
+      "type": "mcq",
+      "choices": ["2/3", "1/3", "3/8", "4/12"],
+      "answer": "2/3",
+      "difficulty": "medium",
+      "explanation": "Common denominator 6: 1/2 = 3/6, so 3/6 + 1/6 = 4/6 = 2/3."
+    },
+    {
+      "id": "rna-q048",
+      "prompt": "What is 3/4 - 1/8?",
+      "type": "mcq",
+      "choices": ["5/8", "7/8", "1/2", "3/8"],
+      "answer": "5/8",
+      "difficulty": "medium",
+      "explanation": "3/4 = 6/8. Then 6/8 - 1/8 = 5/8."
+    },
+    {
+      "id": "rna-q049",
+      "prompt": "What is -1/3 + 5/6?",
+      "type": "mcq",
+      "choices": ["1/2", "-1/2", "2/3", "1/6"],
+      "answer": "1/2",
+      "difficulty": "medium",
+      "explanation": "Common denominator 6: -1/3 = -2/6. Then -2/6 + 5/6 = 3/6 = 1/2."
+    },
+    {
+      "id": "rna-q050",
+      "prompt": "What is 2/5 - 3/10?",
+      "type": "mcq",
+      "choices": ["1/10", "-1/10", "1/5", "-1/5"],
+      "answer": "1/10",
+      "difficulty": "medium",
+      "explanation": "2/5 = 4/10. Then 4/10 - 3/10 = 1/10."
+    },
+    {
+      "id": "rna-q051",
+      "prompt": "What is -3/8 + (-1/4)?",
+      "type": "mcq",
+      "choices": ["-5/8", "-1/8", "5/8", "1/2"],
+      "answer": "-5/8",
+      "difficulty": "medium",
+      "explanation": "-1/4 = -2/8, so -3/8 + -2/8 = -5/8."
+    },
+    {
+      "id": "rna-q052",
+      "prompt": "What is 7/12 + 1/3?",
+      "type": "mcq",
+      "choices": ["11/12", "8/15", "3/4", "5/12"],
+      "answer": "11/12",
+      "difficulty": "medium",
+      "explanation": "1/3 = 4/12. Then 7/12 + 4/12 = 11/12."
+    },
+    {
+      "id": "rna-q053",
+      "prompt": "What is 9/10 - 2/5?",
+      "type": "mcq",
+      "choices": ["1/2", "3/10", "5/10", "7/10"],
+      "answer": "1/2",
+      "difficulty": "medium",
+      "explanation": "2/5 = 4/10. Then 9/10 - 4/10 = 5/10 = 1/2."
+    },
+    {
+      "id": "rna-q054",
+      "prompt": "What is -5/6 + 1/2?",
+      "type": "mcq",
+      "choices": ["-1/3", "1/3", "-2/3", "-1/6"],
+      "answer": "-1/3",
+      "difficulty": "medium",
+      "explanation": "1/2 = 3/6. Then -5/6 + 3/6 = -2/6 = -1/3."
+    },
+    {
+      "id": "rna-q055",
+      "prompt": "What is 4/9 + (-1/3)?",
+      "type": "mcq",
+      "choices": ["1/9", "1/3", "5/9", "-1/9"],
+      "answer": "1/9",
+      "difficulty": "medium",
+      "explanation": "-1/3 = -3/9. Then 4/9 + (-3/9) = 1/9."
+    },
+    {
+      "id": "rna-q056",
+      "prompt": "What is 5/8 - 7/16?",
+      "type": "mcq",
+      "choices": ["3/16", "-3/16", "1/16", "7/32"],
+      "answer": "3/16",
+      "difficulty": "medium",
+      "explanation": "5/8 = 10/16. Then 10/16 - 7/16 = 3/16."
+    },
+    {
+      "id": "rna-q057",
+      "prompt": "What is 1/6 + 5/12?",
+      "type": "mcq",
+      "choices": ["7/12", "1/2", "11/18", "5/8"],
+      "answer": "7/12",
+      "difficulty": "medium",
+      "explanation": "1/6 = 2/12. Then 2/12 + 5/12 = 7/12."
+    },
+    {
+      "id": "rna-q058",
+      "prompt": "What is -2/5 - 1/10?",
+      "type": "mcq",
+      "choices": ["-1/2", "-3/10", "1/2", "-1/10"],
+      "answer": "-1/2",
+      "difficulty": "medium",
+      "explanation": "-2/5 = -4/10. Then -4/10 - 1/10 = -5/10 = -1/2."
+    },
+    {
+      "id": "rna-q059",
+      "prompt": "What is 3/7 + 2/3?",
+      "type": "mcq",
+      "choices": ["23/21", "5/10", "1/21", "11/21"],
+      "answer": "23/21",
+      "difficulty": "hard",
+      "explanation": "Common denominator 21: 3/7=9/21 and 2/3=14/21. Sum = 23/21."
+    },
+    {
+      "id": "rna-q060",
+      "prompt": "What is 5/12 - 2/9?",
+      "type": "mcq",
+      "choices": ["7/36", "-7/36", "1/36", "3/4"],
+      "answer": "7/36",
+      "difficulty": "hard",
+      "explanation": "Common denominator 36: 5/12=15/36 and 2/9=8/36. Difference = 7/36."
+    },
+    {
+      "id": "rna-q061",
+      "prompt": "What is -1/2 + (-2/3)?",
+      "type": "mcq",
+      "choices": ["-7/6", "7/6", "-1/6", "-5/6"],
+      "answer": "-7/6",
+      "difficulty": "medium",
+      "explanation": "Common denominator 6: -1/2=-3/6 and -2/3=-4/6. Sum = -7/6."
+    },
+    {
+      "id": "rna-q062",
+      "prompt": "What is 11/15 + (-2/5)?",
+      "type": "mcq",
+      "choices": ["1/3", "5/15", "17/15", "3/5"],
+      "answer": "1/3",
+      "difficulty": "medium",
+      "explanation": "-2/5 = -6/15. Then 11/15 + (-6/15) = 5/15 = 1/3."
+    },
+    {
+      "id": "rna-q063",
+      "prompt": "What is 2/9 - (-1/6)?",
+      "type": "mcq",
+      "choices": ["7/18", "1/18", "-1/18", "5/54"],
+      "answer": "7/18",
+      "difficulty": "hard",
+      "explanation": "2/9 = 4/18 and -1/6 = -3/18. So 4/18 - (-3/18) = 7/18."
+    },
+    {
+      "id": "rna-q064",
+      "prompt": "What is -7/10 + 3/20?",
+      "type": "mcq",
+      "choices": ["-11/20", "-1/4", "11/20", "-17/20"],
+      "answer": "-11/20",
+      "difficulty": "medium",
+      "explanation": "-7/10 = -14/20. Then -14/20 + 3/20 = -11/20."
+    },
+    {
+      "id": "rna-q065",
+      "prompt": "What is 1 1/2 + 3/4? (Convert to an improper fraction.)",
+      "type": "mcq",
+      "choices": ["9/4", "11/4", "7/4", "13/4"],
+      "answer": "9/4",
+      "difficulty": "medium",
+      "explanation": "1 1/2 = 3/2 = 6/4. Then 6/4 + 3/4 = 9/4."
+    },
+    {
+      "id": "rna-q066",
+      "prompt": "What is -1 2/3 + 1/3? (Convert to an improper fraction.)",
+      "type": "mcq",
+      "choices": ["-4/3", "-5/3", "-1/3", "1/3"],
+      "answer": "-4/3",
+      "difficulty": "medium",
+      "explanation": "-1 2/3 = -5/3. Then -5/3 + 1/3 = -4/3."
+    },
+    {
+      "id": "rna-q067",
+      "prompt": "Which is equivalent to 0.75?",
+      "type": "mcq",
+      "choices": ["3/4", "7/10", "2/5", "1/3"],
+      "answer": "3/4",
+      "difficulty": "easy",
+      "explanation": "0.75 = 75/100 = 3/4."
+    },
+    {
+      "id": "rna-q068",
+      "prompt": "Which is equivalent to -0.2?",
+      "type": "mcq",
+      "choices": ["-1/5", "-2/5", "1/5", "2/5"],
+      "answer": "-1/5",
+      "difficulty": "easy",
+      "explanation": "-0.2 = -2/10 = -1/5."
+    },
+    {
+      "id": "rna-q069",
+      "prompt": "What is 0.6 + 0.25?",
+      "type": "mcq",
+      "choices": ["0.85", "0.65", "0.35", "0.95"],
+      "answer": "0.85",
+      "difficulty": "easy",
+      "explanation": "Add decimals: 0.60 + 0.25 = 0.85."
+    },
+    {
+      "id": "rna-q070",
+      "prompt": "What is -1.3 + 0.7?",
+      "type": "mcq",
+      "choices": ["-2.0", "-0.6", "0.6", "2.0"],
+      "answer": "-0.6",
+      "difficulty": "easy",
+      "explanation": "-1.3 + 0.7 = -(1.3 - 0.7) = -0.6."
+    },
+    {
+      "id": "rna-q071",
+      "prompt": "What is -0.9 - 0.4?",
+      "type": "mcq",
+      "choices": ["-1.3", "-0.5", "0.5", "1.3"],
+      "answer": "-1.3",
+      "difficulty": "easy",
+      "explanation": "-0.9 - 0.4 = -1.3."
+    },
+    {
+      "id": "rna-q072",
+      "prompt": "What is 2.5 - 3.1?",
+      "type": "mcq",
+      "choices": ["-0.6", "0.6", "-5.6", "5.6"],
+      "answer": "-0.6",
+      "difficulty": "easy",
+      "explanation": "2.5 - 3.1 = -(3.1 - 2.5) = -0.6."
+    },
+    {
+      "id": "rna-q073",
+      "prompt": "What is -3.75 + 1.25?",
+      "type": "mcq",
+      "choices": ["-2.5", "2.5", "-4.0", "4.0"],
+      "answer": "-2.5",
+      "difficulty": "easy",
+      "explanation": "-3.75 + 1.25 = -(3.75 - 1.25) = -2.5."
+    },
+    {
+      "id": "rna-q074",
+      "prompt": "What is 0.04 + 0.3?",
+      "type": "mcq",
+      "choices": ["0.34", "0.304", "0.43", "0.07"],
+      "answer": "0.34",
+      "difficulty": "easy",
+      "explanation": "0.04 + 0.30 = 0.34."
+    },
+    {
+      "id": "rna-q075",
+      "prompt": "What is -0.5 - (-1.2)?",
+      "type": "mcq",
+      "choices": ["-1.7", "0.7", "-0.7", "1.7"],
+      "answer": "0.7",
+      "difficulty": "easy",
+      "explanation": "-0.5 - (-1.2) = -0.5 + 1.2 = 0.7."
+    },
+    {
+      "id": "rna-q076",
+      "prompt": "What is 1.8 + (-2.65)?",
+      "type": "mcq",
+      "choices": ["-0.85", "0.85", "-4.45", "4.45"],
+      "answer": "-0.85",
+      "difficulty": "medium",
+      "explanation": "1.80 - 2.65 = -0.85."
+    },
+    {
+      "id": "rna-q077",
+      "prompt": "What is -4.2 + (-0.8)?",
+      "type": "mcq",
+      "choices": ["-5.0", "-3.4", "5.0", "3.4"],
+      "answer": "-5.0",
+      "difficulty": "easy",
+      "explanation": "Add negatives: -(4.2+0.8) = -5.0."
+    },
+    {
+      "id": "rna-q078",
+      "prompt": "Which is equivalent to 3/5?",
+      "type": "mcq",
+      "choices": ["0.6", "0.35", "0.75", "0.5"],
+      "answer": "0.6",
+      "difficulty": "easy",
+      "explanation": "3/5 = 6/10 = 0.6."
+    },
+    {
+      "id": "rna-q079",
+      "prompt": "Which is equivalent to -7/20?",
+      "type": "mcq",
+      "choices": ["-0.35", "0.35", "-0.7", "0.07"],
+      "answer": "-0.35",
+      "difficulty": "medium",
+      "explanation": "-7/20 = -(35/100) = -0.35."
+    },
+    {
+      "id": "rna-q080",
+      "prompt": "Solve: x + 0.75 = 2.5",
+      "type": "short",
+      "answer": "1.75",
+      "difficulty": "easy",
+      "explanation": "Subtract 0.75: x = 2.5 - 0.75 = 1.75."
+    },
+    {
+      "id": "rna-q081",
+      "prompt": "What is 3 × (-4)?",
+      "type": "mcq",
+      "choices": ["-12", "12", "-7", "7"],
+      "answer": "-12",
+      "difficulty": "easy",
+      "explanation": "Positive × negative = negative, and 3×4 = 12."
+    },
+    {
+      "id": "rna-q082",
+      "prompt": "What is (-6) × (-5)?",
+      "type": "mcq",
+      "choices": ["-30", "30", "-11", "11"],
+      "answer": "30",
+      "difficulty": "easy",
+      "explanation": "Negative × negative = positive, and 6×5 = 30."
+    },
+    {
+      "id": "rna-q083",
+      "prompt": "What is -27 ÷ 9?",
+      "type": "mcq",
+      "choices": ["-3", "3", "-18", "18"],
+      "answer": "-3",
+      "difficulty": "easy",
+      "explanation": "27 ÷ 9 = 3, and negative ÷ positive is negative."
+    },
+    {
+      "id": "rna-q084",
+      "prompt": "What is -32 ÷ (-8)?",
+      "type": "mcq",
+      "choices": ["-4", "4", "-24", "24"],
+      "answer": "4",
+      "difficulty": "easy",
+      "explanation": "Negative ÷ negative = positive, and 32 ÷ 8 = 4."
+    },
+    {
+      "id": "rna-q085",
+      "prompt": "What is (1/2) × (3/4)?",
+      "type": "mcq",
+      "choices": ["3/8", "4/6", "5/8", "3/4"],
+      "answer": "3/8",
+      "difficulty": "easy",
+      "explanation": "Multiply numerators and denominators: (1×3)/(2×4) = 3/8."
+    },
+    {
+      "id": "rna-q086",
+      "prompt": "What is (-2/3) × (3/5)?",
+      "type": "mcq",
+      "choices": ["-2/5", "2/5", "-6/15", "-1/5"],
+      "answer": "-2/5",
+      "difficulty": "easy",
+      "explanation": "(-2×3)/(3×5) = -6/15 = -2/5."
+    },
+    {
+      "id": "rna-q087",
+      "prompt": "What is (5/6) ÷ (1/3)?",
+      "type": "mcq",
+      "choices": ["5/18", "5/2", "10/6", "1/2"],
+      "answer": "5/2",
+      "difficulty": "medium",
+      "explanation": "Divide by multiplying by the reciprocal: (5/6)×(3/1) = 15/6 = 5/2."
+    },
+    {
+      "id": "rna-q088",
+      "prompt": "What is (-7/8) ÷ (7/4)?",
+      "type": "mcq",
+      "choices": ["-1/2", "1/2", "-4/8", "-2"],
+      "answer": "-1/2",
+      "difficulty": "medium",
+      "explanation": "(-7/8)×(4/7) = -(28/56) = -1/2."
+    },
+    {
+      "id": "rna-q089",
+      "prompt": "What is 0.6 × (-0.5)?",
+      "type": "mcq",
+      "choices": ["-0.3", "0.3", "-3", "3"],
+      "answer": "-0.3",
+      "difficulty": "easy",
+      "explanation": "0.6×0.5=0.3, and the sign is negative."
+    },
+    {
+      "id": "rna-q090",
+      "prompt": "What is -1.2 ÷ 0.3?",
+      "type": "mcq",
+      "choices": ["-4", "4", "-0.4", "0.4"],
+      "answer": "-4",
+      "difficulty": "medium",
+      "explanation": "1.2 ÷ 0.3 = 4, and the sign is negative."
+    },
+    {
+      "id": "rna-q091",
+      "prompt": "What is (3/10) × (5/6)?",
+      "type": "mcq",
+      "choices": ["1/4", "1/6", "15/60", "1/2"],
+      "answer": "1/4",
+      "difficulty": "medium",
+      "explanation": "(3×5)/(10×6)=15/60=1/4."
+    },
+    {
+      "id": "rna-q092",
+      "prompt": "What is (4/5) ÷ (-2/3)?",
+      "type": "mcq",
+      "choices": ["-6/5", "6/5", "-8/15", "-2/5"],
+      "answer": "-6/5",
+      "difficulty": "medium",
+      "explanation": "(4/5)×(3/ -2) = 12/ -10 = -6/5."
+    },
+    {
+      "id": "rna-q093",
+      "prompt": "What is (-3) × (2/5)?",
+      "type": "mcq",
+      "choices": ["-6/5", "6/5", "-3/10", "-5/6"],
+      "answer": "-6/5",
+      "difficulty": "easy",
+      "explanation": "-3 × 2/5 = -6/5."
+    },
+    {
+      "id": "rna-q094",
+      "prompt": "What is (7/9) × (-18/7)?",
+      "type": "mcq",
+      "choices": ["-2", "2", "-14/9", "14/9"],
+      "answer": "-2",
+      "difficulty": "medium",
+      "explanation": "Cancel 7: (7/9)×(-18/7) = -18/9 = -2."
+    },
+    {
+      "id": "rna-q095",
+      "prompt": "What is (-5/12) × (-6)?",
+      "type": "mcq",
+      "choices": ["5/2", "-5/2", "30/12", "1/4"],
+      "answer": "5/2",
+      "difficulty": "medium",
+      "explanation": "(-5/12)×(-6) = 30/12 = 5/2."
+    },
+    {
+      "id": "rna-q096",
+      "prompt": "What is 2.4 × 0.5?",
+      "type": "mcq",
+      "choices": ["1.2", "12", "0.12", "2.9"],
+      "answer": "1.2",
+      "difficulty": "easy",
+      "explanation": "Half of 2.4 is 1.2."
+    },
+    {
+      "id": "rna-q097",
+      "prompt": "What is 3.6 ÷ 0.9?",
+      "type": "mcq",
+      "choices": ["0.4", "4", "40", "3.24"],
+      "answer": "4",
+      "difficulty": "easy",
+      "explanation": "3.6 ÷ 0.9 = 36 ÷ 9 = 4."
+    },
+    {
+      "id": "rna-q098",
+      "prompt": "What is (-2/3) × (-9/4)?",
+      "type": "mcq",
+      "choices": ["3/2", "-3/2", "18/12", "1/6"],
+      "answer": "3/2",
+      "difficulty": "medium",
+      "explanation": "Product is positive: (2×9)/(3×4)=18/12=3/2."
+    },
+    {
+      "id": "rna-q099",
+      "prompt": "What is (3/5) ÷ (9/10)?",
+      "type": "mcq",
+      "choices": ["2/3", "3/2", "1/6", "6/5"],
+      "answer": "2/3",
+      "difficulty": "medium",
+      "explanation": "(3/5)×(10/9)=30/45=2/3."
+    },
+    {
+      "id": "rna-q100",
+      "prompt": "Solve: x ÷ (-4) = 6",
+      "type": "short",
+      "answer": "-24",
+      "difficulty": "easy",
+      "explanation": "Multiply both sides by -4: x = 6×(-4) = -24."
+    },
+    {
+      "id": "rna-q101",
+      "prompt": "Evaluate: -3 + 2 × 5",
+      "type": "mcq",
+      "choices": ["7", "25", "-5", "5"],
+      "answer": "7",
+      "difficulty": "easy",
+      "explanation": "Multiply first: 2×5=10. Then -3+10=7."
+    },
+    {
+      "id": "rna-q102",
+      "prompt": "Evaluate: ( -3 + 2 ) × 5",
+      "type": "mcq",
+      "choices": ["-5", "7", "-25", "25"],
+      "answer": "-5",
+      "difficulty": "easy",
+      "explanation": "Parentheses first: -3+2=-1. Then -1×5=-5."
+    },
+    {
+      "id": "rna-q103",
+      "prompt": "Evaluate: 1/2 + 3/4 × 2",
+      "type": "mcq",
+      "choices": ["2", "1", "5/4", "7/4"],
+      "answer": "2",
+      "difficulty": "medium",
+      "explanation": "Multiply first: 3/4×2=3/2. Then 1/2+3/2=4/2=2."
+    },
+    {
+      "id": "rna-q104",
+      "prompt": "Evaluate: (1/2 + 3/4) × 2",
+      "type": "mcq",
+      "choices": ["5/4", "1", "7/4", "5/2"],
+      "answer": "5/2",
+      "difficulty": "medium",
+      "explanation": "1/2+3/4=2/4+3/4=5/4. Then 5/4×2=10/4=5/2."
+    },
+    {
+      "id": "rna-q105",
+      "prompt": "Evaluate: -2^2",
+      "type": "mcq",
+      "choices": ["4", "-4", "-2", "2"],
+      "answer": "-4",
+      "difficulty": "hard",
+      "explanation": "Exponents first: 2^2=4, then apply the negative: -4."
+    },
+    {
+      "id": "rna-q106",
+      "prompt": "Evaluate: (-2)^2",
+      "type": "mcq",
+      "choices": ["4", "-4", "-2", "2"],
+      "answer": "4",
+      "difficulty": "hard",
+      "explanation": "The negative is inside the parentheses: (-2)×(-2)=4."
+    },
+    {
+      "id": "rna-q107",
+      "prompt": "Evaluate: -6 + 1/3",
+      "type": "mcq",
+      "choices": ["-17/3", "-19/3", "-5 2/3", "-6 1/3"],
+      "answer": "-17/3",
+      "difficulty": "medium",
+      "explanation": "-6 = -18/3. Then -18/3 + 1/3 = -17/3."
+    },
+    {
+      "id": "rna-q108",
+      "prompt": "Evaluate: 2/3 - (5/6 - 1/2)",
+      "type": "mcq",
+      "choices": ["1/3", "2/3", "5/6", "0"],
+      "answer": "1/3",
+      "difficulty": "hard",
+      "explanation": "Inside: 5/6-1/2 = 5/6-3/6=2/6=1/3. Then 2/3-1/3=1/3."
+    },
+    {
+      "id": "rna-q109",
+      "prompt": "Evaluate: 0.5 - 0.2 ÷ 0.4",
+      "type": "mcq",
+      "choices": ["0", "0.3", "1.0", "0.1"],
+      "answer": "0",
+      "difficulty": "medium",
+      "explanation": "Divide first: 0.2÷0.4=0.5. Then 0.5-0.5=0."
+    },
+    {
+      "id": "rna-q110",
+      "prompt": "Evaluate: ( -1.5 + 0.5 ) × (-4)",
+      "type": "mcq",
+      "choices": ["4", "-4", "8", "-8"],
+      "answer": "4",
+      "difficulty": "easy",
+      "explanation": "-1.5+0.5=-1. Then -1×(-4)=4."
+    },
+    {
+      "id": "rna-q111",
+      "prompt": "Evaluate: (3/4) ÷ (3/8) + 1",
+      "type": "mcq",
+      "choices": ["2", "3", "4", "5"],
+      "answer": "3",
+      "difficulty": "medium",
+      "explanation": "(3/4)÷(3/8) = (3/4)×(8/3)=2. Then 2+1=3."
+    },
+    {
+      "id": "rna-q112",
+      "prompt": "Evaluate: 5 - 2( -3 )",
+      "type": "mcq",
+      "choices": ["-1", "11", "1", "-11"],
+      "answer": "11",
+      "difficulty": "easy",
+      "explanation": "2(-3)=-6. Then 5 - (-6) = 11."
+    },
+    {
+      "id": "rna-q113",
+      "prompt": "Evaluate: -12 ÷ 3 + 7",
+      "type": "mcq",
+      "choices": ["3", "-3", "11", "-11"],
+      "answer": "3",
+      "difficulty": "easy",
+      "explanation": "-12÷3=-4. Then -4+7=3."
+    },
+    {
+      "id": "rna-q114",
+      "prompt": "Evaluate: 1/5 + 2/5 ÷ 4",
+      "type": "mcq",
+      "choices": ["3/5", "3/10", "1/4", "1/5"],
+      "answer": "3/10",
+      "difficulty": "medium",
+      "explanation": "Divide first: (2/5)÷4 = 2/5×1/4=2/20=1/10. Then 1/5+1/10=2/10+1/10=3/10."
+    },
+    {
+      "id": "rna-q115",
+      "prompt": "Evaluate: ( -3/2 ) + ( 5/6 )",
+      "type": "mcq",
+      "choices": ["-2/3", "-4/6", "-1/3", "-1 2/3"],
+      "answer": "-2/3",
+      "difficulty": "medium",
+      "explanation": "-3/2=-9/6. Then -9/6+5/6=-4/6=-2/3."
+    },
+    {
+      "id": "rna-q116",
+      "prompt": "Evaluate: -0.75 + 1/4",
+      "type": "mcq",
+      "choices": ["-0.5", "0.5", "-1.0", "1.0"],
+      "answer": "-0.5",
+      "difficulty": "easy",
+      "explanation": "1/4 = 0.25. Then -0.75 + 0.25 = -0.50."
+    },
+    {
+      "id": "rna-q117",
+      "prompt": "Solve: x + (-3/5) = 2/5",
+      "type": "mcq",
+      "choices": ["-1/5", "1/5", "1", "-1"],
+      "answer": "1",
+      "difficulty": "medium",
+      "explanation": "Add 3/5 to both sides: x = 2/5 + 3/5 = 5/5 = 1."
+    },
+    {
+      "id": "rna-q118",
+      "prompt": "Solve: x - (-0.4) = 1.1",
+      "type": "short",
+      "answer": "0.7",
+      "difficulty": "easy",
+      "explanation": "Subtracting a negative is adding: x + 0.4 = 1.1, so x = 0.7."
+    },
+    {
+      "id": "rna-q119",
+      "prompt": "Evaluate: 2/3 + 1/6 + 1/2",
+      "type": "mcq",
+      "choices": ["4/3", "5/6", "1", "3/2"],
+      "answer": "4/3",
+      "difficulty": "medium",
+      "explanation": "Common denominator 6: 2/3=4/6, 1/6=1/6, 1/2=3/6. Sum = 8/6=4/3."
+    },
+    {
+      "id": "rna-q120",
+      "prompt": "Evaluate: -5 + 3/2",
+      "type": "mcq",
+      "choices": ["-7/2", "-13/2", "-2 1/2", "-5 1/2"],
+      "answer": "-7/2",
+      "difficulty": "medium",
+      "explanation": "-5 = -10/2. Then -10/2 + 3/2 = -7/2."
+    },
+    {
+      "id": "rna-q121",
+      "prompt": "What is the product of -7 and -1/2?",
+      "type": "mcq",
+      "choices": ["7/2", "-7/2", "14", "-14"],
+      "answer": "7/2",
+      "difficulty": "easy",
+      "explanation": "Negative × negative = positive: 7×1/2 = 7/2."
+    },
+    {
+      "id": "rna-q122",
+      "prompt": "What is (-3/4) ÷ (-1/2)?",
+      "type": "mcq",
+      "choices": ["3/2", "-3/2", "3/8", "-3/8"],
+      "answer": "3/2",
+      "difficulty": "medium",
+      "explanation": "Divide by multiplying by the reciprocal: (-3/4)×(-2/1)=6/4=3/2."
+    },
+    {
+      "id": "rna-q123",
+      "prompt": "What is (2/9) × (27/4)?",
+      "type": "mcq",
+      "choices": ["3/2", "6/13", "54/36", "27/18"],
+      "answer": "3/2",
+      "difficulty": "medium",
+      "explanation": "Cancel 9 with 27: (2/9)×(27/4) = 2×3/4 = 6/4 = 3/2."
+    },
+    {
+      "id": "rna-q124",
+      "prompt": "What is -2.5 × (-0.4)?",
+      "type": "mcq",
+      "choices": ["1.0", "-1.0", "10", "-10"],
+      "answer": "1.0",
+      "difficulty": "easy",
+      "explanation": "2.5×0.4=1.0 and the sign is positive."
+    },
+    {
+      "id": "rna-q125",
+      "prompt": "What is 1.2 ÷ (-0.6)?",
+      "type": "mcq",
+      "choices": ["-2", "2", "-0.2", "0.2"],
+      "answer": "-2",
+      "difficulty": "easy",
+      "explanation": "1.2 ÷ 0.6 = 2, and the sign is negative."
+    },
+    {
+      "id": "rna-q126",
+      "prompt": "Evaluate: 3/5 of -20",
+      "type": "mcq",
+      "choices": ["-12", "12", "-8", "8"],
+      "answer": "-12",
+      "difficulty": "easy",
+      "explanation": "3/5 of -20 is (3/5)×(-20) = -12."
+    },
+    {
+      "id": "rna-q127",
+      "prompt": "Evaluate: -1/4 of -32",
+      "type": "mcq",
+      "choices": ["-8", "8", "-128", "128"],
+      "answer": "8",
+      "difficulty": "easy",
+      "explanation": "(-1/4)×(-32) = 32/4 = 8."
+    },
+    {
+      "id": "rna-q128",
+      "prompt": "What is (9/10) ÷ (3/5)?",
+      "type": "mcq",
+      "choices": ["3/2", "2/3", "1/6", "6/5"],
+      "answer": "3/2",
+      "difficulty": "medium",
+      "explanation": "(9/10)×(5/3)=45/30=3/2."
+    },
+    {
+      "id": "rna-q129",
+      "prompt": "What is (-4/7) × (21/8)?",
+      "type": "mcq",
+      "choices": ["-3/2", "3/2", "-84/56", "1/2"],
+      "answer": "-3/2",
+      "difficulty": "medium",
+      "explanation": "Cancel 7 with 21: (-4/7)×(21/8)=(-4×3)/8=-12/8=-3/2."
+    },
+    {
+      "id": "rna-q130",
+      "prompt": "Solve: x × (-3) = 12",
+      "type": "short",
+      "answer": "-4",
+      "difficulty": "easy",
+      "explanation": "Divide both sides by -3: x = 12 ÷ (-3) = -4."
+    },
+    {
+      "id": "rna-q131",
+      "prompt": "A temperature drops from 6°C to -3°C. What is the change in temperature?",
+      "type": "mcq",
+      "choices": ["-9°C", "9°C", "-3°C", "3°C"],
+      "answer": "-9°C",
+      "difficulty": "easy",
+      "explanation": "Change = final - initial = -3 - 6 = -9°C."
+    },
+    {
+      "id": "rna-q132",
+      "prompt": "You owe $12 and then you pay $5. What is your new balance (debt is negative)?",
+      "type": "mcq",
+      "choices": ["-17", "-7", "7", "17"],
+      "answer": "-7",
+      "difficulty": "easy",
+      "explanation": "Start at -12. Paying $5 adds 5: -12 + 5 = -7."
+    },
+    {
+      "id": "rna-q133",
+      "prompt": "A submarine is at -18 m. It rises 7 m. What is its new depth?",
+      "type": "mcq",
+      "choices": ["-25 m", "-11 m", "11 m", "25 m"],
+      "answer": "-11 m",
+      "difficulty": "easy",
+      "explanation": "-18 + 7 = -11."
+    },
+    {
+      "id": "rna-q134",
+      "prompt": "You start with $3.50 and spend $4.20. What is your balance?",
+      "type": "mcq",
+      "choices": ["-0.70", "0.70", "-7.70", "7.70"],
+      "answer": "-0.70",
+      "difficulty": "easy",
+      "explanation": "3.50 - 4.20 = -0.70."
+    },
+    {
+      "id": "rna-q135",
+      "prompt": "A recipe needs 3/4 cup of sugar. If you make half the recipe, how much sugar do you need?",
+      "type": "mcq",
+      "choices": ["3/8 cup", "3/2 cup", "1/4 cup", "1/8 cup"],
+      "answer": "3/8 cup",
+      "difficulty": "easy",
+      "explanation": "Half of 3/4 is (1/2)×(3/4)=3/8."
+    },
+    {
+      "id": "rna-q136",
+      "prompt": "A runner changes elevation by -2.5 m, then by +1.8 m. What is the total change?",
+      "type": "mcq",
+      "choices": ["-0.7 m", "0.7 m", "-4.3 m", "4.3 m"],
+      "answer": "-0.7 m",
+      "difficulty": "easy",
+      "explanation": "-2.5 + 1.8 = -0.7."
+    },
+    {
+      "id": "rna-q137",
+      "prompt": "A stock changes by -3% one day and +5% the next day. What is the total change over the two days?",
+      "type": "mcq",
+      "choices": ["+2%", "-2%", "+8%", "-8%"],
+      "answer": "+2%",
+      "difficulty": "easy",
+      "explanation": "-3% + 5% = 2%."
+    },
+    {
+      "id": "rna-q138",
+      "prompt": "Which is closest to 0?",
+      "type": "mcq",
+      "choices": ["-0.6", "-1/2", "0.4", "-0.3"],
+      "answer": "-0.3",
+      "difficulty": "medium",
+      "explanation": "Compare absolute values: 0.6, 0.5, 0.4, 0.3. The smallest is 0.3, so -0.3 is closest to 0."
+    },
+    {
+      "id": "rna-q139",
+      "prompt": "Which is greatest?",
+      "type": "mcq",
+      "choices": ["-2/3", "-0.6", "-5/8", "-0.7"],
+      "answer": "-0.6",
+      "difficulty": "hard",
+      "explanation": "Write as decimals: -2/3≈-0.666..., -0.6=-0.6, -5/8=-0.625, -0.7=-0.7. The greatest is the least negative: -0.6."
+    },
+    {
+      "id": "rna-q140",
+      "prompt": "A bank account is at -$18. A deposit of $25 is made. What is the new balance?",
+      "type": "mcq",
+      "choices": ["-43", "-7", "7", "43"],
+      "answer": "7",
+      "difficulty": "easy",
+      "explanation": "-18 + 25 = 7."
+    },
+    {
+      "id": "rna-q141",
+      "prompt": "You run 2.4 miles in the morning and 1.75 miles in the evening. How many miles total?",
+      "type": "mcq",
+      "choices": ["4.15", "4.25", "3.15", "2.95"],
+      "answer": "4.15",
+      "difficulty": "easy",
+      "explanation": "2.4 + 1.75 = 4.15."
+    },
+    {
+      "id": "rna-q142",
+      "prompt": "You have 1/2 of a pizza left. You eat 1/6 of a pizza. How much pizza is left?",
+      "type": "mcq",
+      "choices": ["1/3", "2/3", "1/6", "5/6"],
+      "answer": "1/3",
+      "difficulty": "medium",
+      "explanation": "1/2 - 1/6 = 3/6 - 1/6 = 2/6 = 1/3."
+    },
+    {
+      "id": "rna-q143",
+      "prompt": "A store gives a discount of 15% on a $40 item. How much is the discount?",
+      "type": "mcq",
+      "choices": ["$6", "$5", "$15", "$25"],
+      "answer": "$6",
+      "difficulty": "easy",
+      "explanation": "15% of 40 is 0.15×40 = 6."
+    },
+    {
+      "id": "rna-q144",
+      "prompt": "A game score is -12. You gain 5 points, then lose 8 points. What is the new score?",
+      "type": "mcq",
+      "choices": ["-15", "-19", "1", "15"],
+      "answer": "-15",
+      "difficulty": "easy",
+      "explanation": "-12 + 5 - 8 = -15."
+    },
+    {
+      "id": "rna-q145",
+      "prompt": "A scuba diver is at -6.5 m and descends 2.25 m more. What is the new depth?",
+      "type": "mcq",
+      "choices": ["-8.75 m", "-4.25 m", "8.75 m", "4.25 m"],
+      "answer": "-8.75 m",
+      "difficulty": "easy",
+      "explanation": "-6.5 - 2.25 = -8.75."
+    },
+    {
+      "id": "rna-q146",
+      "prompt": "A hiker is 3/4 mile from camp, then walks another 5/8 mile away from camp. How far from camp is the hiker now?",
+      "type": "mcq",
+      "choices": ["11/8 mile", "5/8 mile", "1 3/8 mile", "1 1/8 mile"],
+      "answer": "11/8 mile",
+      "difficulty": "medium",
+      "explanation": "3/4=6/8. Then 6/8+5/8=11/8."
+    },
+    {
+      "id": "rna-q147",
+      "prompt": "A bill is $48. You split it equally among 3 friends. How much does each pay?",
+      "type": "mcq",
+      "choices": ["$16", "$15", "$14", "$18"],
+      "answer": "$16",
+      "difficulty": "easy",
+      "explanation": "48 ÷ 3 = 16."
+    },
+    {
+      "id": "rna-q148",
+      "prompt": "A tank is filled to 3/5 of its capacity. After using 1/4 of the tank's capacity, how full is it now?",
+      "type": "mcq",
+      "choices": ["7/20", "2/5", "1/20", "11/20"],
+      "answer": "7/20",
+      "difficulty": "hard",
+      "explanation": "3/5 - 1/4 = 12/20 - 5/20 = 7/20."
+    },
+    {
+      "id": "rna-q149",
+      "prompt": "A board is 2.5 m long. You cut off 3/4 m. How long is the remaining piece?",
+      "type": "mcq",
+      "choices": ["1.75 m", "3.25 m", "2.25 m", "1.25 m"],
+      "answer": "1.75 m",
+      "difficulty": "easy",
+      "explanation": "3/4 = 0.75. Then 2.5 - 0.75 = 1.75."
+    },
+    {
+      "id": "rna-q150",
+      "prompt": "A container holds 1.2 liters. If you pour out 0.35 liters, how much remains?",
+      "type": "short",
+      "answer": "0.85",
+      "difficulty": "easy",
+      "explanation": "1.2 - 0.35 = 0.85."
+    },
+    {
+      "id": "rna-q151",
+      "prompt": "What is 7/9 - 1/3?",
+      "type": "mcq",
+      "choices": ["4/9", "2/3", "8/9", "1/6"],
+      "answer": "4/9",
+      "difficulty": "easy",
+      "explanation": "1/3 = 3/9. Then 7/9 - 3/9 = 4/9."
+    },
+    {
+      "id": "rna-q152",
+      "prompt": "What is -3/4 + 1/8?",
+      "type": "mcq",
+      "choices": ["-5/8", "-7/8", "5/8", "-1/2"],
+      "answer": "-5/8",
+      "difficulty": "medium",
+      "explanation": "-3/4 = -6/8. Then -6/8 + 1/8 = -5/8."
+    },
+    {
+      "id": "rna-q153",
+      "prompt": "What is 2/3 - 5/12?",
+      "type": "mcq",
+      "choices": ["1/4", "1/12", "3/12", "7/12"],
+      "answer": "1/4",
+      "difficulty": "medium",
+      "explanation": "2/3=8/12. Then 8/12-5/12=3/12=1/4."
+    },
+    {
+      "id": "rna-q154",
+      "prompt": "What is -1/6 - 2/9?",
+      "type": "mcq",
+      "choices": ["-7/18", "7/18", "-1/3", "-5/18"],
+      "answer": "-7/18",
+      "difficulty": "hard",
+      "explanation": "-1/6=-3/18 and 2/9=4/18. Then -3/18-4/18=-7/18."
+    },
+    {
+      "id": "rna-q155",
+      "prompt": "What is 1.05 - 0.78?",
+      "type": "mcq",
+      "choices": ["0.27", "-0.27", "1.83", "0.33"],
+      "answer": "0.27",
+      "difficulty": "easy",
+      "explanation": "1.05 - 0.78 = 0.27."
+    },
+    {
+      "id": "rna-q156",
+      "prompt": "What is -2.6 + 3.9?",
+      "type": "mcq",
+      "choices": ["1.3", "-1.3", "6.5", "-6.5"],
+      "answer": "1.3",
+      "difficulty": "easy",
+      "explanation": "3.9 - 2.6 = 1.3."
+    },
+    {
+      "id": "rna-q157",
+      "prompt": "What is (2/5) × (15/4)?",
+      "type": "mcq",
+      "choices": ["3/2", "5/6", "30/20", "15/20"],
+      "answer": "3/2",
+      "difficulty": "medium",
+      "explanation": "Cancel 5 with 15: (2/5)×(15/4)=2×3/4=6/4=3/2."
+    },
+    {
+      "id": "rna-q158",
+      "prompt": "What is (-3/10) ÷ (6/5)?",
+      "type": "mcq",
+      "choices": ["-1/4", "1/4", "-1/10", "-5/12"],
+      "answer": "-1/4",
+      "difficulty": "hard",
+      "explanation": "(-3/10)×(5/6)=-15/60=-1/4."
+    },
+    {
+      "id": "rna-q159",
+      "prompt": "Evaluate: 4 - 3/2",
+      "type": "mcq",
+      "choices": ["5/2", "3/2", "1/2", "7/2"],
+      "answer": "5/2",
+      "difficulty": "easy",
+      "explanation": "4 = 8/2. Then 8/2 - 3/2 = 5/2."
+    },
+    {
+      "id": "rna-q160",
+      "prompt": "Evaluate: ( -8 ) ÷ ( -2 ) × ( -3 )",
+      "type": "mcq",
+      "choices": ["-12", "12", "-4", "4"],
+      "answer": "-12",
+      "difficulty": "medium",
+      "explanation": "-8÷-2=4, then 4×-3=-12."
+    },
+    {
+      "id": "rna-q161",
+      "prompt": "Evaluate: 1/2 - ( -1/4 )",
+      "type": "mcq",
+      "choices": ["1/4", "3/4", "-3/4", "-1/4"],
+      "answer": "3/4",
+      "difficulty": "easy",
+      "explanation": "Subtracting a negative is adding: 1/2 + 1/4 = 2/4 + 1/4 = 3/4."
+    },
+    {
+      "id": "rna-q162",
+      "prompt": "Evaluate: -3/5 + 2 - 1/10",
+      "type": "mcq",
+      "choices": ["13/10", "11/10", "7/10", "17/10"],
+      "answer": "13/10",
+      "difficulty": "hard",
+      "explanation": "Convert to tenths: -3/5=-6/10 and 2=20/10. Then 20/10-6/10-1/10=13/10."
+    },
+    {
+      "id": "rna-q163",
+      "prompt": "Which expression equals -1/2?",
+      "type": "mcq",
+      "choices": ["1/4 - 3/4", "3/4 - 1/4", "-1/4 + 1/2", "1/2 + 1/4"],
+      "answer": "1/4 - 3/4",
+      "difficulty": "medium",
+      "explanation": "1/4 - 3/4 = -2/4 = -1/2."
+    },
+    {
+      "id": "rna-q164",
+      "prompt": "Which equals 2 1/4?",
+      "type": "mcq",
+      "choices": ["9/4", "7/4", "5/4", "11/4"],
+      "answer": "9/4",
+      "difficulty": "easy",
+      "explanation": "2 1/4 = (2×4+1)/4 = 9/4."
+    },
+    {
+      "id": "rna-q165",
+      "prompt": "What is 3/8 as a decimal?",
+      "type": "mcq",
+      "choices": ["0.375", "0.38", "0.35", "0.625"],
+      "answer": "0.375",
+      "difficulty": "medium",
+      "explanation": "3/8 = 0.375."
+    },
+    {
+      "id": "rna-q166",
+      "prompt": "What is 0.125 as a fraction in simplest form?",
+      "type": "mcq",
+      "choices": ["1/8", "1/4", "1/16", "3/8"],
+      "answer": "1/8",
+      "difficulty": "medium",
+      "explanation": "0.125 = 125/1000 = 1/8."
+    },
+    {
+      "id": "rna-q167",
+      "prompt": "What is -0.4 as a fraction in simplest form?",
+      "type": "mcq",
+      "choices": ["-2/5", "-4/5", "-1/4", "2/5"],
+      "answer": "-2/5",
+      "difficulty": "easy",
+      "explanation": "-0.4 = -4/10 = -2/5."
+    },
+    {
+      "id": "rna-q168",
+      "prompt": "What is 1 3/5 as a decimal?",
+      "type": "mcq",
+      "choices": ["1.6", "1.35", "1.3", "1.5"],
+      "answer": "1.6",
+      "difficulty": "easy",
+      "explanation": "3/5 = 0.6, so 1 3/5 = 1.6."
+    },
+    {
+      "id": "rna-q169",
+      "prompt": "Solve: x - 2.3 = -1.1",
+      "type": "short",
+      "answer": "1.2",
+      "difficulty": "easy",
+      "explanation": "Add 2.3 to both sides: x = -1.1 + 2.3 = 1.2."
+    },
+    {
+      "id": "rna-q170",
+      "prompt": "Solve: x + (-6.8) = -2.5",
+      "type": "short",
+      "answer": "4.3",
+      "difficulty": "easy",
+      "explanation": "Add 6.8 to both sides: x = -2.5 + 6.8 = 4.3."
+    },
+    {
+      "id": "rna-q171",
+      "prompt": "What is 2/7 + 5/14?",
+      "type": "mcq",
+      "choices": ["9/14", "7/21", "1/2", "3/14"],
+      "answer": "9/14",
+      "difficulty": "medium",
+      "explanation": "2/7 = 4/14. Then 4/14 + 5/14 = 9/14."
+    },
+    {
+      "id": "rna-q172",
+      "prompt": "What is -5/12 - 1/8?",
+      "type": "mcq",
+      "choices": ["-13/24", "-7/24", "-1/3", "13/24"],
+      "answer": "-13/24",
+      "difficulty": "hard",
+      "explanation": "Common denominator 24: -5/12=-10/24 and 1/8=3/24. Then -10/24-3/24=-13/24."
+    },
+    {
+      "id": "rna-q173",
+      "prompt": "What is 1.6 ÷ 0.4?",
+      "type": "mcq",
+      "choices": ["0.4", "4", "40", "1.2"],
+      "answer": "4",
+      "difficulty": "easy",
+      "explanation": "1.6 ÷ 0.4 = 16 ÷ 4 = 4."
+    },
+    {
+      "id": "rna-q174",
+      "prompt": "What is (-0.25) × 12?",
+      "type": "mcq",
+      "choices": ["-3", "3", "-0.3", "0.3"],
+      "answer": "-3",
+      "difficulty": "easy",
+      "explanation": "0.25×12=3, and the sign is negative."
+    },
+    {
+      "id": "rna-q175",
+      "prompt": "What is ( -3/2 ) ÷ 3?",
+      "type": "mcq",
+      "choices": ["-1/2", "-3/5", "-9/2", "1/2"],
+      "answer": "-1/2",
+      "difficulty": "easy",
+      "explanation": "(-3/2) ÷ 3 = (-3/2)×(1/3) = -3/6 = -1/2."
+    },
+    {
+      "id": "rna-q176",
+      "prompt": "A student's score changes by -2 points each round for 6 rounds. What is the total change?",
+      "type": "mcq",
+      "choices": ["-12", "12", "-8", "8"],
+      "answer": "-12",
+      "difficulty": "easy",
+      "explanation": "-2×6 = -12."
+    },
+    {
+      "id": "rna-q177",
+      "prompt": "A car's value decreases by $450 each year. After 3 years, what is the total change in value?",
+      "type": "mcq",
+      "choices": ["-$1350", "$1350", "-$150", "$150"],
+      "answer": "-$1350",
+      "difficulty": "easy",
+      "explanation": "Change = -450×3 = -1350."
+    },
+    {
+      "id": "rna-q178",
+      "prompt": "A container loses 0.35 liters each day for 4 days. What is the total change in volume?",
+      "type": "mcq",
+      "choices": ["-1.4", "1.4", "-0.31", "0.31"],
+      "answer": "-1.4",
+      "difficulty": "easy",
+      "explanation": "-0.35×4 = -1.4."
+    },
+    {
+      "id": "rna-q179",
+      "prompt": "You have -$6.50. You earn $12.00 and then spend $4.75. What is your final balance?",
+      "type": "mcq",
+      "choices": ["$0.75", "-$0.75", "$0.25", "-$0.25"],
+      "answer": "$0.75",
+      "difficulty": "medium",
+      "explanation": "-6.50 + 12.00 - 4.75 = 0.75."
+    },
+    {
+      "id": "rna-q180",
+      "prompt": "A number is multiplied by -3 to get 18. What is the number?",
+      "type": "mcq",
+      "choices": ["-6", "6", "-54", "54"],
+      "answer": "-6",
+      "difficulty": "easy",
+      "explanation": "If -3x = 18, then x = 18 ÷ -3 = -6."
+    },
+    {
+      "id": "rna-q181",
+      "prompt": "A runner's elevation changes by +3/4 mile and then by -5/8 mile. What is the net change (in miles)?",
+      "type": "mcq",
+      "choices": ["1/8", "-1/8", "11/8", "-11/8"],
+      "answer": "1/8",
+      "difficulty": "medium",
+      "explanation": "3/4=6/8. Then 6/8-5/8=1/8."
+    },
+    {
+      "id": "rna-q182",
+      "prompt": "What is the quotient of -3/5 and 6?",
+      "type": "mcq",
+      "choices": ["-1/10", "1/10", "-18/5", "18/5"],
+      "answer": "-1/10",
+      "difficulty": "easy",
+      "explanation": "(-3/5) ÷ 6 = (-3/5)×(1/6) = -3/30 = -1/10."
+    },
+    {
+      "id": "rna-q183",
+      "prompt": "What is 2/3 ÷ 4/9?",
+      "type": "mcq",
+      "choices": ["3/2", "2/3", "3/4", "8/27"],
+      "answer": "3/2",
+      "difficulty": "medium",
+      "explanation": "(2/3)×(9/4)=18/12=3/2."
+    },
+    {
+      "id": "rna-q184",
+      "prompt": "Evaluate: 0.9 - 1/5",
+      "type": "mcq",
+      "choices": ["0.7", "0.8", "1.1", "0.65"],
+      "answer": "0.7",
+      "difficulty": "easy",
+      "explanation": "1/5=0.2. Then 0.9-0.2=0.7."
+    },
+    {
+      "id": "rna-q185",
+      "prompt": "Evaluate: ( -2/3 ) + ( -1/6 ) + 1",
+      "type": "mcq",
+      "choices": ["1/6", "-1/6", "1/2", "-1/2"],
+      "answer": "1/6",
+      "difficulty": "medium",
+      "explanation": "Common denominator 6: -2/3=-4/6. Then -4/6-1/6=-5/6. Add 1=6/6: 6/6-5/6=1/6."
+    },
+    {
+      "id": "rna-q186",
+      "prompt": "Evaluate: 3 - ( -1/2 ) - 1/4",
+      "type": "mcq",
+      "choices": ["13/4", "11/4", "7/4", "15/4"],
+      "answer": "13/4",
+      "difficulty": "medium",
+      "explanation": "3 - (-1/2) = 3 + 1/2 = 7/2 = 14/4. Then 14/4 - 1/4 = 13/4."
+    },
+    {
+      "id": "rna-q187",
+      "prompt": "Evaluate: ( -3/4 ) × ( 2/3 ) × ( -6 )",
+      "type": "mcq",
+      "choices": ["3", "-3", "1", "-1"],
+      "answer": "3",
+      "difficulty": "hard",
+      "explanation": "(-3/4)×(2/3)=-1/2. Then (-1/2)×(-6)=3."
+    },
+    {
+      "id": "rna-q188",
+      "prompt": "Which is equal to (-2)^3?",
+      "type": "mcq",
+      "choices": ["-8", "8", "-6", "6"],
+      "answer": "-8",
+      "difficulty": "medium",
+      "explanation": "(-2)^3 = (-2)×(-2)×(-2) = -8."
+    },
+    {
+      "id": "rna-q189",
+      "prompt": "Evaluate: -2^3",
+      "type": "mcq",
+      "choices": ["-8", "8", "-6", "6"],
+      "answer": "-8",
+      "difficulty": "hard",
+      "explanation": "Exponent first: 2^3=8, then apply the negative: -8."
+    },
+    {
+      "id": "rna-q190",
+      "prompt": "Solve: x ÷ 0.25 = -6",
+      "type": "short",
+      "answer": "-1.5",
+      "difficulty": "medium",
+      "explanation": "Multiply both sides by 0.25: x = -6×0.25 = -1.5."
+    },
+    {
+      "id": "rna-q191",
+      "prompt": "What is 1/3 + 0.2?",
+      "type": "mcq",
+      "choices": ["8/15", "1/2", "2/3", "7/15"],
+      "answer": "8/15",
+      "difficulty": "hard",
+      "explanation": "0.2=1/5. Then 1/3+1/5=5/15+3/15=8/15."
+    },
+    {
+      "id": "rna-q192",
+      "prompt": "What is -0.6 + 3/10?",
+      "type": "mcq",
+      "choices": ["-0.3", "-0.9", "0.3", "0.9"],
+      "answer": "-0.3",
+      "difficulty": "easy",
+      "explanation": "3/10=0.3. Then -0.6+0.3=-0.3."
+    },
+    {
+      "id": "rna-q193",
+      "prompt": "What is 5/8 ÷ 2?",
+      "type": "mcq",
+      "choices": ["5/16", "5/4", "10/16", "1/8"],
+      "answer": "5/16",
+      "difficulty": "easy",
+      "explanation": "Dividing by 2 is multiplying by 1/2: 5/8×1/2=5/16."
+    },
+    {
+      "id": "rna-q194",
+      "prompt": "What is -3/4 ÷ 3?",
+      "type": "mcq",
+      "choices": ["-1/4", "-1/12", "1/12", "-9/4"],
+      "answer": "-1/4",
+      "difficulty": "easy",
+      "explanation": "(-3/4)÷3 = (-3/4)×(1/3) = -3/12 = -1/4."
+    },
+    {
+      "id": "rna-q195",
+      "prompt": "What is -2/5 × 15?",
+      "type": "mcq",
+      "choices": ["-6", "6", "-30", "30"],
+      "answer": "-6",
+      "difficulty": "easy",
+      "explanation": "(-2/5)×15 = (-2)×3 = -6."
+    },
+    {
+      "id": "rna-q196",
+      "prompt": "What is 3.75 ÷ 1.5?",
+      "type": "mcq",
+      "choices": ["2.5", "0.25", "25", "3.25"],
+      "answer": "2.5",
+      "difficulty": "medium",
+      "explanation": "3.75 ÷ 1.5 = 375 ÷ 150 = 2.5."
+    },
+    {
+      "id": "rna-q197",
+      "prompt": "A store raises a price by $1.25 and then lowers it by $0.80. What is the net change in price?",
+      "type": "mcq",
+      "choices": ["+$0.45", "-$0.45", "+$2.05", "-$2.05"],
+      "answer": "+$0.45",
+      "difficulty": "easy",
+      "explanation": "1.25 - 0.80 = 0.45."
+    },
+    {
+      "id": "rna-q198",
+      "prompt": "A football team loses 4 yards on one play, then gains 9 yards. What is the total change in yards?",
+      "type": "mcq",
+      "choices": ["5", "-5", "13", "-13"],
+      "answer": "5",
+      "difficulty": "easy",
+      "explanation": "-4 + 9 = 5."
+    },
+    {
+      "id": "rna-q199",
+      "prompt": "A mountain trail starts at 0 m. After hiking, your elevation is -120 m. What integer represents the change?",
+      "type": "mcq",
+      "choices": ["-120", "120", "0", "-240"],
+      "answer": "-120",
+      "difficulty": "easy",
+      "explanation": "The elevation is 120 meters below 0, so the change is -120."
+    },
+    {
+      "id": "rna-q200",
+      "prompt": "A class raises $2.50 per student for 28 students. How much money is raised?",
+      "type": "mcq",
+      "choices": ["$70", "$56", "$75", "$60"],
+      "answer": "$70",
+      "difficulty": "easy",
+      "explanation": "2.5×28 = 70."
+    }
+  ]
+}

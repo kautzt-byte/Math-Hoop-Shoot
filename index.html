@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Arcade Free-Throw</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div id="home-menu"></div>
+    <div id="game-screen">
+      <div id="app">
+      <header class="topbar">
+        <div class="title">Arcade Free-Throw</div>
+        <div class="stats">
+          <div>Tickets: <span id="tickets-count">0</span></div>
+          <div>Time: <span id="time-remaining">0</span>s</div>
+          <div>Score: <span id="score">0</span></div>
+          <div>Boxes: <span id="boxes-count">0</span></div>
+        </div>
+      </header>
+
+      <div class="main">
+        <div class="play-area">
+          <canvas id="game-canvas" width="960" height="540"></canvas>
+          <div class="hint">
+            Space: lock position / lock power
+          </div>
+        </div>
+
+        <aside class="panel">
+          <h2>Controls</h2>
+          <button id="earn-ticket-btn">Earn Tickets (Question)</button>
+          <button id="start-session-btn">Start Shooting</button>
+          <button id="home-btn">Home</button>
+          <div class="note">
+            Earn tickets to play. Each ticket = 30 seconds.
+          </div>
+          <div id="sprite-status" class="note"></div>
+          <div id="lockout-status" class="note"></div>
+
+          <h2>Trophy Case</h2>
+          <div id="trophy-case"></div>
+          <div class="note">Skins save on this device.</div>
+        </aside>
+      </div>
+    </div>
+    </div>
+
+    <div id="question-modal" class="modal hidden" role="dialog" aria-modal="true">
+      <div class="modal-card">
+        <div id="question-title" class="modal-title"></div>
+        <div id="question-text"></div>
+        <div id="question-options"></div>
+        <div id="question-feedback" class="hidden"></div>
+        <div class="modal-actions">
+          <button id="question-continue" class="hidden">Continue</button>
+        </div>
+      </div>
+    </div>
+
+    <div id="session-end" class="modal hidden" role="dialog" aria-modal="true">
+      <div class="modal-card">
+        <div class="modal-title">Session Complete</div>
+        <div id="session-summary"></div>
+        <div id="box-list"></div>
+        <div class="modal-actions">
+          <button id="session-close">Close</button>
+        </div>
+      </div>
+    </div>
+
+    <div id="loot-modal" class="modal hidden" role="dialog" aria-modal="true">
+      <div class="modal-card">
+        <div class="modal-title">Loot Unlocked</div>
+        <img id="loot-sprite" alt="Unlocked loot sprite" />
+        <div id="loot-name"></div>
+        <div id="loot-rarity"></div>
+        <div class="modal-actions">
+          <button id="loot-close">Close</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>

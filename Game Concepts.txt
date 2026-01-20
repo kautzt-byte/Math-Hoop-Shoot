@@ -1,0 +1,55 @@
+Arcade Free-Throw (Math Game) - Concepts
+
+Gameplay loop (current)
+- Earn tickets by answering a math question (button: "Earn Tickets (Question)").
+- Each ticket = 30 seconds of shooting time (tickets convert into one timed session).
+- During a session:
+  - Aim phase: the ball moves left/right; press Space to lock position.
+  - Power phase: power oscillates; press Space to shoot.
+  - Shots score 2 points, or 3 points if taken far enough from the hoop.
+- Successful shots can drop boxes:
+  - Base box drop chance is 5%.
+  - 3-pointers get a small bonus chance.
+- When time runs out, show a session summary + list of earned boxes.
+- Boxes can be opened:
+  - Regular: open immediately.
+  - Fancy upgrade: answer a question first, then open with better rarity odds.
+- Boxes unlock ball skins; unlocked/equipped skins persist via localStorage.
+
+Question system (current)
+- Questions load from `data/questions.json` with a fallback set in `main.js` if the file is missing/unreadable.
+- Supports `mcq` (multiple choice) and `short` (typed) question types.
+- Currently configured to use a single question from the pool (see `CONFIG.singleQuestionMode` / `CONFIG.singleQuestionIndex` in `main.js`).
+
+Sprite pack / assets (current)
+
+Folders
+- assets/
+- assets/ball_skins/
+- assets/ball_skins/common/
+- assets/ball_skins/rare/
+- assets/ball_skins/legendary/ (reserved; no legendary skins defined in code yet)
+
+Required sprites (recommended sizes)
+- Court background: `assets/court_bg.png` (960x540)
+- Hoop/backboard: `assets/hoop.png` (192x192 is the current draw size; source can be any square-ish sprite)
+- Ball skins (32x32 each; filenames must match `main.js`):
+  - Common:
+    - `assets/ball_skins/common/Classic.png`
+    - `assets/ball_skins/common/Baseball.png`
+    - `assets/ball_skins/common/Donut.png`
+    - `assets/ball_skins/common/kickball.png`
+    - `assets/ball_skins/common/rock.png`
+    - `assets/ball_skins/common/Soccer.png`
+    - `assets/ball_skins/common/tennis ball.png`
+    - `assets/ball_skins/common/Volleyball.png`
+  - Rare:
+    - `assets/ball_skins/rare/chromebook.png`
+    - `assets/ball_skins/rare/clorox wipes.png`
+    - `assets/ball_skins/rare/stick.png`
+    - `assets/ball_skins/rare/Water Bottle.png`
+
+Optional sprites (not wired yet)
+- Regular box icon: `assets/box_regular.png` (48x48)
+- Fancy box icon: `assets/box_fancy.png` (48x48)
+- Ticket icon: `assets/ticket.png` (32x24)

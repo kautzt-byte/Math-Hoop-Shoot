@@ -1,0 +1,7 @@
+- 2026-01-16: Created new 2D arcade free-throw prototype with ticket-based math gating and loot boxes.
+- 2026-01-16: Added local save for unlocked/equipped ball skins via localStorage.
+- 2026-01-19: Wired up the full gameplay loop (tickets -> timed shooting session -> session summary) with score tracking, 2pt/3pt shots, and box drops (with a small bonus chance on 3-pointers).
+- 2026-01-19: Added end-of-session box opening UI (regular open or fancy upgrade via a question) and trophy case inventory/equip flow for ball skins.
+- 2026-01-19: Added question loader from `data/questions.json` with fallback questions and a modal UI for MCQ + short-answer prompts.
+- 2026-01-19: Added sprite preloading + on-screen sprite status for court, hoop, and ball skins.
+- 2026-01-20: Added `Codex Instructions.md` to track repo-specific workflow/conventions.

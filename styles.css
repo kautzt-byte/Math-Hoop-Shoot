@@ -1,0 +1,271 @@
+:root {
+  --bg: #0b1220;
+  --panel: #efe5d1;
+  --panel-edge: #3b2b1b;
+  --accent: #d2873a;
+  --accent-dark: #9a5d24;
+  --ink: #2b2319;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.hidden {
+  display: none;
+}
+
+#home-menu.hidden,
+#game-screen.hidden {
+  display: none;
+}
+
+body {
+  margin: 0;
+  font-family: "Trebuchet MS", "Tahoma", sans-serif;
+  background: radial-gradient(circle at top, #1f334a, #0b1220 60%);
+  color: var(--ink);
+}
+
+#home-menu {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px 16px;
+}
+
+.home-card {
+  background: var(--panel);
+  border: 2px solid var(--panel-edge);
+  border-radius: 12px;
+  padding: 20px;
+  width: min(520px, 92vw);
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  text-align: center;
+}
+
+.home-title {
+  font-weight: 800;
+  font-size: 20px;
+  letter-spacing: 0.6px;
+}
+
+.home-buttons {
+  display: grid;
+  gap: 10px;
+}
+
+#home-status {
+  font-size: 12px;
+  color: #5a4734;
+}
+
+#app {
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 16px;
+}
+
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: var(--panel);
+  border: 2px solid var(--panel-edge);
+  padding: 10px 16px;
+  border-radius: 10px;
+  gap: 16px;
+}
+
+.title {
+  font-weight: 800;
+  letter-spacing: 0.5px;
+}
+
+.stats {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.main {
+  display: flex;
+  gap: 16px;
+  margin-top: 16px;
+}
+
+.play-area {
+  position: relative;
+}
+
+canvas {
+  border: 3px solid #0f1a26;
+  background: #f3e6cd;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
+}
+
+.hint {
+  position: absolute;
+  left: 12px;
+  bottom: 12px;
+  background: rgba(0, 0, 0, 0.6);
+  color: #f3e6cd;
+  padding: 6px 10px;
+  border-radius: 6px;
+  font-size: 12px;
+}
+
+.panel {
+  width: 260px;
+  background: var(--panel);
+  border: 2px solid var(--panel-edge);
+  border-radius: 10px;
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.panel h2 {
+  margin: 6px 0;
+  font-size: 16px;
+}
+
+.note {
+  font-size: 12px;
+  color: #5a4734;
+}
+
+button {
+  padding: 8px 10px;
+  border: 2px solid var(--panel-edge);
+  background: var(--accent);
+  color: #20170e;
+  font-weight: 700;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.2s ease, transform 0.05s ease;
+}
+
+button:hover {
+  background: var(--accent-dark);
+  color: #f5ebd6;
+}
+
+button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+  filter: grayscale(0.3);
+}
+
+.modal {
+  position: fixed;
+  inset: 0;
+  background: rgba(12, 16, 22, 0.75);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16px;
+  z-index: 20;
+}
+
+.modal#question-modal {
+  z-index: 30;
+}
+
+.modal#loot-modal {
+  z-index: 25;
+}
+
+.modal.hidden {
+  display: none;
+}
+
+.modal-card {
+  background: var(--panel);
+  border: 2px solid var(--panel-edge);
+  border-radius: 12px;
+  padding: 16px;
+  width: min(480px, 90vw);
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.modal-title {
+  font-weight: 800;
+  text-transform: uppercase;
+  font-size: 12px;
+  letter-spacing: 1px;
+  color: #5b3f23;
+}
+
+#loot-sprite {
+  width: 96px;
+  height: 96px;
+  align-self: center;
+  object-fit: contain;
+  image-rendering: pixelated;
+}
+
+#question-options {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+#question-options input[type="text"] {
+  padding: 8px;
+  border: 2px solid #8f6a3f;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+.modal-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 8px;
+}
+
+#trophy-case {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  max-height: 220px;
+  overflow: auto;
+  font-size: 13px;
+}
+
+.trophy-item {
+  display: flex;
+  justify-content: space-between;
+  background: rgba(255, 255, 255, 0.6);
+  padding: 6px;
+  border-radius: 6px;
+}
+
+.rarity-common {
+  color: #4a6b3f;
+}
+
+.rarity-rare {
+  color: #2f5692;
+}
+
+.rarity-legendary {
+  color: #a1452a;
+}
+
+@media (max-width: 1100px) {
+  .main {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .panel {
+    width: min(640px, 90vw);
+  }
+}
