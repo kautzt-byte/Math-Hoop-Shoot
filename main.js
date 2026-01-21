@@ -79,10 +79,16 @@ const SPRITE_PATHS = {
 
 const SFX = {
   coltynMake: new Audio("assets/sfx/Coltyn.mp3"),
+  graceMake: new Audio("assets/sfx/Grace.mp3"),
+  lucyMake: new Audio("assets/sfx/Lucy.mp3"),
   swish: new Audio("assets/sfx/Voicy_Basketball Swish.mp3")
 };
 SFX.coltynMake.preload = "auto";
 SFX.coltynMake.volume = 0.7;
+SFX.graceMake.preload = "auto";
+SFX.graceMake.volume = 0.7;
+SFX.lucyMake.preload = "auto";
+SFX.lucyMake.volume = 0.7;
 SFX.swish.preload = "auto";
 SFX.swish.volume = 0.7;
 
@@ -175,6 +181,12 @@ function playMakeBasketSfx() {
     if (state.equippedSkin === "coltyn") {
       SFX.coltynMake.currentTime = 0;
       void SFX.coltynMake.play();
+    } else if (state.equippedSkin === "grace") {
+      SFX.graceMake.currentTime = 0;
+      void SFX.graceMake.play();
+    } else if (state.equippedSkin === "lucy") {
+      SFX.lucyMake.currentTime = 0;
+      void SFX.lucyMake.play();
     } else if (!isLegendarySkin) {
       SFX.swish.currentTime = 0;
       void SFX.swish.play();
