@@ -641,7 +641,8 @@ function showQuestion(context, payload) {
   questionContinue.classList.add("hidden");
 
   if (question.type === "mcq") {
-    question.choices.forEach((choice) => {
+    const shuffledChoices = shuffle(question.choices || []);
+    shuffledChoices.forEach((choice) => {
       const button = document.createElement("button");
       button.textContent = choice;
       button.addEventListener("click", () => handleAnswer(choice));
