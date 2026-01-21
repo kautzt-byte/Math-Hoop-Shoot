@@ -18,6 +18,7 @@ const CONFIG = {
   swishDropDuration: 0.22,
   swishDropDistance: 130,
   arcHeight: 150,
+  makeSoundEarlySeconds: 0.5,
   ticketSeconds: 30,
   boxDropChance: 0.05,
   threePointBoxBonusChance: 0.04,
@@ -75,6 +76,15 @@ const SPRITE_PATHS = {
   ballSkinsRoot: "assets/ball_skins"
 };
 
+const SFX = {
+  coltynMake: new Audio("assets/sfx/Coltyn.mp3"),
+  swish: new Audio("assets/sfx/Voicy_Basketball Swish.mp3")
+};
+SFX.coltynMake.preload = "auto";
+SFX.coltynMake.volume = 0.7;
+SFX.swish.preload = "auto";
+SFX.swish.volume = 0.7;
+
 const canvas = document.getElementById("game-canvas");
 const ctx = canvas.getContext("2d");
 
@@ -89,6 +99,7 @@ const earnTicketBtn = document.getElementById("earn-ticket-btn");
 const startSessionBtn = document.getElementById("start-session-btn");
 const homeBtn = document.getElementById("home-btn");
 const lockoutStatusEl = document.getElementById("lockout-status");
+const unlockAllBtn = document.getElementById("unlock-all-btn");
 
 const questionModal = document.getElementById("question-modal");
 const questionTitle = document.getElementById("question-title");
@@ -147,6 +158,42 @@ function lerp(a, b, t) {
 
 function clamp(value, min, max) {
   return Math.max(min, Math.min(max, value));
+}
+
+function playMakeBasketSfx() {
+  const isLegendarySkin =
+    state.equippedSkin === "coltyn" ||
+    state.equippedSkin === "grace" ||
+    state.equippedSkin === "landyn-da-goat" ||
+    state.equippedSkin === "lucy";
+
+  try {
+    if (state.equippedSkin === "coltyn") {
+      SFX.coltynMake.currentTime = 0;
+      void SFX.coltynMake.play();
+    } else if (!isLegendarySkin) {
+      SFX.swish.currentTime = 0;
+      void SFX.swish.play();
+    }
+  } catch (error) {
+    // Ignore audio failures (e.g. autoplay restrictions).
+  }
+}
+
+function getShotElapsedFromStart(shot) {
+  if (!shot) {
+    return 0;
+  }
+  if (shot.phase === "arc") {
+    return shot.elapsed || 0;
+  }
+  if (shot.phase === "pause") {
+    return CONFIG.shotDuration + (shot.pauseElapsed || 0);
+  }
+  if (shot.phase === "drop") {
+    return CONFIG.shotDuration + CONFIG.swishPause + (shot.dropElapsed || 0);
+  }
+  return 0;
 }
 
 function getLockoutSecondsRemaining() {
@@ -682,6 +729,7 @@ function takeShot() {
     elapsed: 0,
     success,
     points,
+    sfxPlayed: false,
     pauseElapsed: 0,
     dropElapsed: 0
   };
@@ -758,6 +806,19 @@ function update(delta) {
         resolveShot();
       }
     }
+
+    if (state.shot && state.shot.success && !state.shot.sfxPlayed) {
+      const totalShotSeconds =
+        CONFIG.shotDuration + CONFIG.swishPause + CONFIG.swishDropDuration;
+      const playAtSeconds = Math.max(
+        0,
+        totalShotSeconds - CONFIG.makeSoundEarlySeconds
+      );
+      if (getShotElapsedFromStart(state.shot) >= playAtSeconds) {
+        playMakeBasketSfx();
+        state.shot.sfxPlayed = true;
+      }
+    }
   }
 
   if (state.mode !== "idle") {
@@ -800,6 +861,23 @@ function attachEvents() {
   lootCloseBtn.addEventListener("click", () => {
     lootModal.classList.add("hidden");
   });
+  if (unlockAllBtn) {
+    unlockAllBtn.addEventListener("click", () => {
+      const password = prompt("Password required:");
+      if (password !== "Kautz6460") {
+        alert("Incorrect password.");
+        return;
+      }
+
+      state.inventory = Array.from(new Set(SKINS.map((skin) => skin.id)));
+      if (!state.inventory.includes(state.equippedSkin)) {
+        state.equippedSkin = state.inventory[0] || "classic";
+      }
+      saveProgress();
+      updateTrophyCase();
+      alert("All skins unlocked.");
+    });
+  }
   document.addEventListener("keydown", (event) => {
     if (event.code !== "Space") {
       return;

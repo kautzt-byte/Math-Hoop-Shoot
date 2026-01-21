@@ -161,6 +161,16 @@ button:disabled {
   filter: grayscale(0.3);
 }
 
+button.danger {
+  background: #e0a09a;
+  border-color: #6d2a25;
+}
+
+button.danger:hover {
+  background: #c96c63;
+  color: #fff2e6;
+}
+
 .modal {
   position: fixed;
   inset: 0;
