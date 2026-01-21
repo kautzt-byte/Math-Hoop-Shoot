@@ -49,6 +49,7 @@ const SKINS = [
 
 const SAVE_KEY = "arcade_free_throw.save.v1";
 const QUESTION_SET_KEY = "arcade_free_throw.question_set";
+const ADMIN_MODE_KEY = "arcade_free_throw.admin_mode";
 
 const QUESTION_SETS = {
   grade7: {
@@ -100,6 +101,8 @@ const startSessionBtn = document.getElementById("start-session-btn");
 const homeBtn = document.getElementById("home-btn");
 const lockoutStatusEl = document.getElementById("lockout-status");
 const unlockAllBtn = document.getElementById("unlock-all-btn");
+const adminBtn = document.getElementById("admin-btn");
+const adminStatusEl = document.getElementById("admin-status");
 
 const questionModal = document.getElementById("question-modal");
 const questionTitle = document.getElementById("question-title");
@@ -143,6 +146,7 @@ const state = {
   currentQuestion: null,
   questionContext: null,
   questionLocked: false,
+  adminMode: false,
   wrongStreak: 0,
   answerLockoutUntil: 0,
   lastLoot: null,
@@ -326,6 +330,16 @@ function updateStats() {
   boxesEl.textContent = state.boxes;
   startSessionBtn.disabled = state.tickets === 0 || state.mode !== "idle";
 
+  if (adminStatusEl) {
+    adminStatusEl.textContent = state.adminMode
+      ? "Admin mode: ON (tickets don't require questions)"
+      : "";
+  }
+
+  if (adminBtn) {
+    adminBtn.textContent = state.adminMode ? "Admin (ON)" : "Admin (OFF)";
+  }
+
   if (lockoutStatusEl) {
     const remaining = getLockoutSecondsRemaining();
     lockoutStatusEl.textContent =
@@ -335,7 +349,7 @@ function updateStats() {
   }
 
   earnTicketBtn.disabled =
-    isAnswerLockoutActive() ||
+    (!state.adminMode && isAnswerLockoutActive()) ||
     state.mode !== "idle" ||
     (questionModal && !questionModal.classList.contains("hidden"));
 
@@ -850,7 +864,14 @@ function loop(timestamp) {
 }
 
 function attachEvents() {
-  earnTicketBtn.addEventListener("click", () => showQuestion("ticket"));
+  earnTicketBtn.addEventListener("click", () => {
+    if (state.adminMode) {
+      state.tickets += 1;
+      updateStats();
+      return;
+    }
+    showQuestion("ticket");
+  });
   startSessionBtn.addEventListener("click", startSession);
   sessionClose.addEventListener("click", () => {
     sessionModal.classList.add("hidden");
@@ -858,6 +879,23 @@ function attachEvents() {
   homeBtn.addEventListener("click", () => {
     showHomeMenu();
   });
+  if (adminBtn) {
+    adminBtn.addEventListener("click", () => {
+      const password = prompt("Admin password:");
+      if (password !== "Kautz6460") {
+        alert("Incorrect password.");
+        return;
+      }
+      state.adminMode = !state.adminMode;
+      try {
+        localStorage.setItem(ADMIN_MODE_KEY, state.adminMode ? "1" : "0");
+      } catch (error) {
+        // Ignore storage failures.
+      }
+      updateStats();
+      alert(`Admin mode ${state.adminMode ? "enabled" : "disabled"}.`);
+    });
+  }
   lootCloseBtn.addEventListener("click", () => {
     lootModal.classList.add("hidden");
   });
@@ -898,6 +936,7 @@ async function init() {
   loadProgress();
   state.selectedQuestionSet =
     localStorage.getItem(QUESTION_SET_KEY) || "grade7";
+  state.adminMode = localStorage.getItem(ADMIN_MODE_KEY) === "1";
   renderHomeMenu();
   showHomeMenu();
   await preloadSprites();
