@@ -36,8 +36,11 @@ const SKINS = [
   { id: "tennis-ball", name: "Tennis Ball", rarity: "common", file: "tennis ball.png", color: "#d9882c" },
   { id: "volleyball", name: "Volleyball", rarity: "common", file: "Volleyball.png", color: "#d9882c" },
 
+  { id: "brick", name: "Brick", rarity: "rare", file: "brick.png", color: "#3a6bd2" },
+  { id: "chicken-wing", name: "Chicken Wing", rarity: "rare", file: "chicken wing.png", color: "#3a6bd2" },
   { id: "chromebook", name: "Chromebook", rarity: "rare", file: "chromebook.png", color: "#3a6bd2" },
   { id: "clorox-wipes", name: "Clorox Wipes", rarity: "rare", file: "clorox wipes.png", color: "#3a6bd2" },
+  { id: "green", name: "Green", rarity: "rare", file: "green.png", color: "#3a6bd2" },
   { id: "stick", name: "Stick", rarity: "rare", file: "stick.png", color: "#3a6bd2" },
   { id: "water-bottle", name: "Water Bottle", rarity: "rare", file: "Water Bottle.png", color: "#3a6bd2" },
 
@@ -185,9 +188,6 @@ function playMakeBasketSfx() {
     if (state.equippedSkin === "coltyn") {
       SFX.coltynMake.currentTime = 0;
       void SFX.coltynMake.play();
-    } else if (state.equippedSkin === "grace") {
-      SFX.graceMake.currentTime = 0;
-      void SFX.graceMake.play();
     } else if (state.equippedSkin === "lucy") {
       SFX.lucyMake.currentTime = 0;
       void SFX.lucyMake.play();
@@ -206,6 +206,17 @@ function playMakeBasketSfx() {
     } else if (!isLegendarySkin) {
       SFX.swish.currentTime = 0;
       void SFX.swish.play();
+    }
+  } catch (error) {
+    // Ignore audio failures (e.g. autoplay restrictions).
+  }
+}
+
+function playMissSfx() {
+  try {
+    if (state.equippedSkin === "grace") {
+      SFX.graceMake.currentTime = 0;
+      void SFX.graceMake.play();
     }
   } catch (error) {
     // Ignore audio failures (e.g. autoplay restrictions).
@@ -776,6 +787,7 @@ function takeShot() {
     success,
     points,
     sfxPlayed: false,
+    missSfxPlayed: false,
     pauseElapsed: 0,
     dropElapsed: 0
   };
@@ -788,6 +800,11 @@ function resolveShot() {
     const bonus = state.shot.points === 3 ? CONFIG.threePointBoxBonusChance : 0;
     if (Math.random() < CONFIG.boxDropChance + bonus) {
       state.boxes += 1;
+    }
+  } else {
+    if (!state.shot.missSfxPlayed) {
+      playMissSfx();
+      state.shot.missSfxPlayed = true;
     }
   }
   state.ballX = lerp(CONFIG.minX, CONFIG.maxX, Math.random());
@@ -863,6 +880,14 @@ function update(delta) {
       if (getShotElapsedFromStart(state.shot) >= playAtSeconds) {
         playMakeBasketSfx();
         state.shot.sfxPlayed = true;
+      }
+    }
+
+    if (state.shot && !state.shot.success && !state.shot.missSfxPlayed) {
+      const playAtSeconds = Math.max(0, CONFIG.shotDuration - CONFIG.makeSoundEarlySeconds);
+      if (getShotElapsedFromStart(state.shot) >= playAtSeconds) {
+        playMissSfx();
+        state.shot.missSfxPlayed = true;
       }
     }
   }
