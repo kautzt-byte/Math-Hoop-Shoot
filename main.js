@@ -45,6 +45,8 @@ const SKINS = [
   { id: "water-bottle", name: "Water Bottle", rarity: "rare", file: "Water Bottle.png", color: "#3a6bd2" },
 
   { id: "coltyn", name: "Coltyn", rarity: "legendary", file: "Coltyn.png", color: "#a1452a" },
+  { id: "adalyn", name: "Adalyn", rarity: "legendary", file: "Adalyn.png", color: "#a1452a" },
+  { id: "blake", name: "Blake", rarity: "legendary", file: "Blake.png", color: "#a1452a" },
   { id: "grace", name: "Grace", rarity: "legendary", file: "Grace.png", color: "#a1452a" },
   { id: "landyn-da-goat", name: "Landyn da GOAT", rarity: "legendary", file: "Landyn da GOAT.png", color: "#a1452a" },
   { id: "lucy", name: "Lucy", rarity: "legendary", file: "Lucy.png", color: "#a1452a" }
@@ -82,12 +84,18 @@ const SPRITE_PATHS = {
 
 const SFX = {
   coltynMake: new Audio("assets/sfx/Coltyn.mp3"),
+  adalynMake: new Audio("assets/sfx/adalyn.mp3"),
+  blakeMake: new Audio("assets/sfx/blake.mp3"),
   graceMake: new Audio("assets/sfx/Grace.mp3"),
   lucyMake: new Audio("assets/sfx/Lucy.mp3"),
   swish: new Audio("assets/sfx/Voicy_Basketball Swish.mp3")
 };
 SFX.coltynMake.preload = "auto";
 SFX.coltynMake.volume = 0.7;
+SFX.adalynMake.preload = "auto";
+SFX.adalynMake.volume = 0.7;
+SFX.blakeMake.preload = "auto";
+SFX.blakeMake.volume = 0.7;
 SFX.graceMake.preload = "auto";
 SFX.graceMake.volume = 0.7;
 SFX.lucyMake.preload = "auto";
@@ -180,6 +188,8 @@ function clamp(value, min, max) {
 function playMakeBasketSfx() {
   const isLegendarySkin =
     state.equippedSkin === "coltyn" ||
+    state.equippedSkin === "adalyn" ||
+    state.equippedSkin === "blake" ||
     state.equippedSkin === "grace" ||
     state.equippedSkin === "landyn-da-goat" ||
     state.equippedSkin === "lucy";
@@ -188,6 +198,12 @@ function playMakeBasketSfx() {
     if (state.equippedSkin === "coltyn") {
       SFX.coltynMake.currentTime = 0;
       void SFX.coltynMake.play();
+    } else if (state.equippedSkin === "adalyn") {
+      SFX.adalynMake.currentTime = 0;
+      void SFX.adalynMake.play();
+    } else if (state.equippedSkin === "blake") {
+      SFX.blakeMake.currentTime = 0;
+      void SFX.blakeMake.play();
     } else if (state.equippedSkin === "lucy") {
       SFX.lucyMake.currentTime = 0;
       void SFX.lucyMake.play();
