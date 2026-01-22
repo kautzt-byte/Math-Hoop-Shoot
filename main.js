@@ -92,6 +92,8 @@ SFX.lucyMake.volume = 0.7;
 SFX.swish.preload = "auto";
 SFX.swish.volume = 0.7;
 
+const LANDYN_VIDEO_SRC = "assets/video/landyn vid.mp4";
+
 const canvas = document.getElementById("game-canvas");
 const ctx = canvas.getContext("2d");
 
@@ -130,6 +132,8 @@ const lootCloseBtn = document.getElementById("loot-close");
 
 const homeMenuEl = document.getElementById("home-menu");
 const gameScreenEl = document.getElementById("game-screen");
+const videoOverlayEl = document.getElementById("video-overlay");
+const landynVideoEl = document.getElementById("landyn-video");
 
 const state = {
   tickets: 0,
@@ -187,6 +191,18 @@ function playMakeBasketSfx() {
     } else if (state.equippedSkin === "lucy") {
       SFX.lucyMake.currentTime = 0;
       void SFX.lucyMake.play();
+    } else if (state.equippedSkin === "landyn-da-goat") {
+      if (landynVideoEl && videoOverlayEl) {
+        if (!landynVideoEl.src) {
+          landynVideoEl.src = LANDYN_VIDEO_SRC;
+        }
+        landynVideoEl.currentTime = 0;
+        videoOverlayEl.classList.remove("hidden");
+        const playResult = landynVideoEl.play();
+        if (playResult && typeof playResult.catch === "function") {
+          playResult.catch(() => {});
+        }
+      }
     } else if (!isLegendarySkin) {
       SFX.swish.currentTime = 0;
       void SFX.swish.play();
@@ -576,6 +592,9 @@ function showHomeMenu(message) {
   questionModal.classList.add("hidden");
   sessionModal.classList.add("hidden");
   lootModal.classList.add("hidden");
+  if (videoOverlayEl) {
+    videoOverlayEl.classList.add("hidden");
+  }
   const statusEl = document.getElementById("home-status");
   if (statusEl) {
     if (message) {
@@ -912,6 +931,11 @@ function attachEvents() {
   lootCloseBtn.addEventListener("click", () => {
     lootModal.classList.add("hidden");
   });
+  if (landynVideoEl && videoOverlayEl) {
+    landynVideoEl.addEventListener("ended", () => {
+      videoOverlayEl.classList.add("hidden");
+    });
+  }
   if (unlockAllBtn) {
     unlockAllBtn.addEventListener("click", () => {
       const password = prompt("Password required:");

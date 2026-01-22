@@ -190,6 +190,20 @@ button.danger:hover {
   z-index: 25;
 }
 
+.modal#video-overlay {
+  z-index: 35;
+  background: rgba(0, 0, 0, 0.85);
+  pointer-events: none;
+}
+
+#landyn-video {
+  max-width: 100%;
+  max-height: 100%;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
 .modal.hidden {
   display: none;
 }
